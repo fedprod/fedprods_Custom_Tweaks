@@ -1,0 +1,35 @@
+<z_fedTweaks>
+    <craftvitamins>
+        <conditional>
+            <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftVitamins') == 'On'">
+                <set xpath="/progression/crafting_skills/crafting_skill[@name='craftingMedical']/display_entry[@icon='craftingMedical']">
+                    <display_entry icon="medicalFirstAidBandage,drugFortBites,drugVitamins" name_key="medicalT1-1,medicalT1-2" has_quality="false" unlock_level="5,10" >
+                        <unlock_entry item="medicalFirstAidBandage,drugVitamins" unlock_tier="1" />
+                        <unlock_entry item="drugFortBites" unlock_tier="2" />
+                    </display_entry>
+                    <display_entry icon="medicalPlasterCast,drugHerbalAntibiotics,drugRecog" name_key="medicalT2-1,medicalT2-2,medicalT2-3" has_quality="false" unlock_level="20,30,40" >
+                        <unlock_entry item="medicalPlasterCast" unlock_tier="1" />
+                        <unlock_entry item="drugHerbalAntibiotics" unlock_tier="2" />
+                        <unlock_entry item="drugRecog" unlock_tier="3" />
+                    </display_entry>
+                    <display_entry icon="medicalFirstAidKit,drugAntibiotics,drugSteroids" name_key="medicalT3-1,medicalT3-2,medicalT3-3" has_quality="false" unlock_level="50,60,75" >
+                        <unlock_entry item="medicalFirstAidKit" unlock_tier="1" />
+                        <unlock_entry item="drugAntibiotics" unlock_tier="2" />
+                        <unlock_entry item="drugSteroids" unlock_tier="3" />
+                    </display_entry>
+                    <effect_group>
+                        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,100" value="1" tags="medicalFirstAidBandage"/>
+                        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="10,100" value="1" tags="drugFortBites"/>
+                        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="20,100" value="1" tags="medicalPlasterCast"/>
+                        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="30,100" value="1" tags="drugHerbalAntibiotics"/>
+                        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="40,100" value="1" tags="drugRecog"/>
+                        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="50,100" value="1" tags="medicalFirstAidKit"/>
+                        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="60,100" value="1" tags="drugAntibiotics"/>
+                        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="75,100" value="1" tags="drugSteroids"/>
+                    </effect_group>
+                </set>
+            </if>
+            <else />
+        </conditional>
+    </craftvitamins>
+</z_fedTweaks>

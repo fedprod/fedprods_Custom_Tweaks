@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModSettings>
+    <Global>
+        <Tab name="Tweaks" displayKey="" tooltipKey="">
+            <Category name="Gameplay" displayKey="" tooltipKey="">
+                <Selector name="SetBasicChallengeSP" displayKey="" tooltipKey="" value="Default" defaultValue="Default">
+                    <Property type="arrayValues" allowedValues="Default,14,21,28" />
+                    <!-- Default is 4 -->
+                </Selector>
+                <Switch name="OptimizedStacks" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" />
+                <!-- Changed Stack Sizes:
+                        50000:  Coin, Molten
+                        25000:  Cash
+                        10000:  Gas
+                         6000:  Bone, Cobble, Cement, Concrete, Buck, Casing, Bullet
+                         1000:  Turret
+                          600:  9mm
+                          500:  Trap, Acid, Leather, Cloth, Feather, Silver
+                          300:  762mm, Shot
+                          250:  Raw, Water, Rotting, Egg, Meal, Crop
+                          150:  Arrow, Bolt
+                           50:  Rocket, Testosterone
+                           25:  Thrown, Food, Drink, Radiator, Books, Magazines
+                           20:  AmmoBundle, Medical, Drugs
+                            5:  Engine, Grill, Pot
+                -->
+                <Switch name="TradersNoTP" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" />
+                <Switch name="TradersAlwaysOpen" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" />
+                <!-- <Switch name="MoreHoney" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" /> -->
+                <!-- <Switch name="FastTrees" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" /> -->
+                <!-- <Switch name="FastCrops" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" /> -->
+                <!-- <Switch name="PickupStorage" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" /> -->
+                <!-- <Switch name="PickupWorkstations" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" /> -->
+                <!-- <Switch name="MoreLoot" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" /> -->
+                <!-- <Selector name="LongerLoot" displayKey="" tooltipKey="" value="Default" defaultValue="Default"> -->
+                    <!-- <Property type="arrayValues" allowedValues="Default,15 min,30 min,45 min,60 min" /> -->
+                    <!-- Default is like 5 minutes or so -->
+                <!-- </Selector> -->
+            </Category>
+        </Tab>
+        <Tab name="Crafting" displayKey="" tooltipKey="">
+            <Category name="MoreCrafts" displayKey="" tooltipKey="">
+                <Switch name="CraftAcid" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" />
+                <!-- <Switch name="CraftAppliances" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" /> -->
+                <Switch name="CraftCandies" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" />
+                <!-- <Switch name="CraftFilter" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" /> -->
+                <!-- <Switch name="CraftGatherer" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" /> -->
+                <Switch name="CraftLegendary" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" />
+                <!-- <Switch name="CraftMREs" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" /> -->
+                <Switch name="CraftPainkillers" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" />
+                <Switch name="CraftParts" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" />
+                <!-- <Switch name="CraftSolarBank" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" /> -->
+                <!-- <Switch name="CraftSolarCell" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" /> -->
+                <!-- <Switch name="CraftTarp" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" /> -->
+                <Switch name="CraftVitamins" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" />
+                <Switch name="SmeltCoal" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" />
+                <Switch name="SmeltSnow" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" />
+                <Switch name="NoLegendaryT0" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" />
+            </Category>
+        </Tab>
+        <!-- To implement later
+        <Tab name="Storage" displayKey="" tooltipKey="">
+            <Category name="StackSizes" displayKey="" tooltipKey="">
+                <Selector name="StacksAmmo" displayKey="" tooltipKey="" value="Default" defaultValue="Default">
+                    <Property type="arrayValues" allowedValues="Realistic,Less,Default,More" />
+                    Depending on Ammo:
+                    Pistols: 75,150,300,600, Rifles: 50,100,150,300, Arrows/Bolts: 25,75,150,300, Special: 25,50,75,150, Turrets/Traps: 250,500,1000,2500
+                </Selector>
+                <Selector name="StackMoney" displayKey="" tooltipKey="" value="Default" defaultValue="Default">
+                    <Property type="arrayValues" allowedValues="Realistic,Less,Default,More" />
+                    Dukes and Old Cash, also Gas Canisters: 1000,10000,25000,50000
+                </Selector>
+                <Selector name="StackResources" displayKey="" tooltipKey="" value="Default" defaultValue="Default">
+                    <Property type="arrayValues" allowedValues="Realistic,Less,Default,More" />
+                    Stones, Snow, Fiber, Wood, Sand, Glass, Iron, Shale, Brass, Lead, Clay, Coal, Nitrate, Cobblestone, Cement, Concrete: 1500,3000,6000,9000
+                </Selector>
+                <Selector name="StackScavenging" displayKey="" tooltipKey="" value="Default" defaultValue="Default">
+                    <Property type="arrayValues" allowedValues="Realistic,Less,Default,More" />
+                    Fat, Bones, Leather, Feathers
+                </Selector>
+                <Selector name="StackPlants" displayKey="" tooltipKey="" value="Default" defaultValue="Default">
+                    <Property type="arrayValues" allowedValues="Realistic,Less,Default,More" />
+                </Selector>
+                <Selector name="StackMatsT2" displayKey="" tooltipKey="" value="Default" defaultValue="Default">
+                    <Property type="arrayValues" allowedValues="Realistic,Less,Default,More" />
+                </Selector>
+                <Selector name="StackMatsT3" displayKey="" tooltipKey="" value="Default" defaultValue="Default">
+                    <Property type="arrayValues" allowedValues="Realistic,Less,Default,More" />
+                </Selector>
+                <Selector name="StackMatsT3" displayKey="" tooltipKey="" value="Default" defaultValue="Default">
+                    <Property type="arrayValues" allowedValues="Realistic,Less,Default,More" />
+                </Selector>
+            </Category>
+        </Tab>
+        -->
+    </Global>
+    <World />
+</ModSettings>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+		<Name value="fedprods_Custom_Tweaks" />
+		<DisplayName value="fedprod's Custom Tweaks" />
+		<Description value="A customizable Tweak Mod&#13;&#10;
+        All Features are either Customizable or Toggleable per Gears:&#13;&#10;
+        Customizable:&#13;&#10;
+        - Skill Points when finishing the Basic Challenge&#13;&#10;
+        - &#13;&#10;
+        - Toggleable:&#13;&#10;
+        - More Craftable Vanilla Items&#13;&#10;
+        - Optimized Item Stack Amounts&#13;&#10;
+        - Traders never close and no Boundary Teleport&#13;&#10;
+        - &#13;&#10;" />
+    <!--
+    ToDo:
+        - Iron and Wood Trap Durability&#13;&#10;
+        - Loot Bag chance and despawn timers&#13;&#10;
+        - Tree Growth and Honey drop chance&#13;&#10;
+        - Item Stack Amounts by Types / Quality&#13;&#10;
+        - &#13;&#10;
+        - Toggleable:
+        - No Legendary Parts for Tier 0 Equipment&#13;&#10;
+        - Pick up Storage Crates and Workbenches&#13;&#10;
+-->
+		<Author value="fedprod" />
+		<Version value="1.0.1.5" />
+		<Website value="https://github.com/fedprod/fedprods_Custom_Tweaks" />
+</xml>
