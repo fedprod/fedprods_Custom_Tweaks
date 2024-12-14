@@ -9,6 +9,7 @@
         - &#13;&#10;
         - Toggleable:&#13;&#10;
         - More Craftable Vanilla Items&#13;&#10;
+        - No Legendary Parts for Tier 0 Equipment&#13;&#10;
         - Optimized Item Stack Amounts&#13;&#10;
         - Traders never close and no Boundary Teleport&#13;&#10;
         - &#13;&#10;" />
@@ -20,7 +21,6 @@
         - Item Stack Amounts by Types / Quality&#13;&#10;
         - &#13;&#10;
         - Toggleable:
-        - No Legendary Parts for Tier 0 Equipment&#13;&#10;
         - Pick up Storage Crates and Workbenches&#13;&#10;
 -->
 		<Author value="fedprod" />
