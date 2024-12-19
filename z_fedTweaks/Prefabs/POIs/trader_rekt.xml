@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <z_fedTweaks>
+    <!--
+    Traders don't Teleport Players
+-->
     <conditional>
         <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Tweaks.Gameplay.TradersNoTP') == 'On'">
             <prefab>
