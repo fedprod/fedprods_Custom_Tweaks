@@ -1,7 +1,5 @@
 ﻿<z_fedTweaks>
-    <!--
-    Customizable Amount of Skills Points after finishing the Basics Challenge
--->
+    <skillpoints>
         <conditional>
             <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Tweaks.Gameplay.SetBasicChallengeSP') == '14'">
                 <set xpath="gameevents/action_sequence[@name='challenge_group_reward_basics']/action[@class='AddSkillPoints']/property[@name='skill_points']/@value">14</set>
@@ -14,7 +12,5 @@
             </if>
             <else />
         </conditional>
-    <!--
-    
--->
+    </skillpoints>
 </z_fedTweaks>
