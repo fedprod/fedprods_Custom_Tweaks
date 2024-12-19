@@ -64,6 +64,19 @@
             <else />
         </conditional>
     </craftparts>
+    <craftsolars>
+        <conditional>
+            <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftSolars') == 'On'">
+                    <append xpath="/items/item[@name='solarbank']">
+                        <property name="UnlockedBy" value="craftingElectrician"/>
+                    </append>
+                    <append xpath="/items/item[@name='solarCell']">
+                        <property name="UnlockedBy" value="craftingElectrician"/>
+                    </append>
+            </if>
+            <else />
+        </conditional>
+    </craftsolars>
     <craftvitamins>
         <conditional>
             <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftVitamins') == 'On'">

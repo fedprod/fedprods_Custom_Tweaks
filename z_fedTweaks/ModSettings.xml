@@ -26,16 +26,20 @@
                 -->
                 <Switch name="TradersNoTP" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" />
                 <Switch name="TradersAlwaysOpen" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" />
-                <!-- <Switch name="MoreHoney" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" /> -->
-                <!-- <Switch name="FastTrees" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" /> -->
-                <!-- <Switch name="FastCrops" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" /> -->
+                <Selector name="TrapDurability" displayKey="" tooltipKey="" value="Default" defaultValue="Default">
+                    <Property type="arrayValues" allowedValues="Default,x3,x5,x10" />
+                    <!-- Default is 4 -->
+                </Selector>
+                <Switch name="FastCrops" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" />
+                <Switch name="FastTrees" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" />
+                <Switch name="MoreHoney" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" />
+                <Switch name="PickupLoot" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" />
                 <!-- <Switch name="PickupStorage" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" /> -->
                 <!-- <Switch name="PickupWorkstations" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" /> -->
-                <!-- <Switch name="MoreLoot" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" /> -->
-                <!-- <Selector name="LongerLoot" displayKey="" tooltipKey="" value="Default" defaultValue="Default"> -->
-                    <!-- <Property type="arrayValues" allowedValues="Default,15 min,30 min,45 min,60 min" /> -->
-                    <!-- Default is like 5 minutes or so -->
-                <!-- </Selector> -->
+                <Switch name="MoreLoot" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" />
+                <Selector name="LongerLoot" displayKey="" tooltipKey="" value="Default" defaultValue="Default">
+                    <Property type="arrayValues" allowedValues="Default,x2,x3" />   <!-- Default is 1200 seconds (20 minutes) -->
+                 </Selector>
             </Category>
         </Tab>
         <Tab name="Crafting" displayKey="" tooltipKey="">
@@ -43,15 +47,12 @@
                 <Switch name="CraftAcid" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" />
                 <!-- <Switch name="CraftAppliances" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" /> -->
                 <Switch name="CraftCandies" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" />
-                <!-- <Switch name="CraftFilter" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" /> -->
-                <!-- <Switch name="CraftGatherer" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" /> -->
+                <!-- <Switch name="CraftDewMods" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" /> -->
                 <Switch name="CraftLegendary" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" />
                 <!-- <Switch name="CraftMREs" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" /> -->
                 <Switch name="CraftPainkillers" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" />
                 <Switch name="CraftParts" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" />
-                <!-- <Switch name="CraftSolarBank" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" /> -->
-                <!-- <Switch name="CraftSolarCell" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" /> -->
-                <!-- <Switch name="CraftTarp" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" /> -->
+                <Switch name="CraftSolars" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" />
                 <Switch name="CraftVitamins" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" />
                 <Switch name="SmeltCoal" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" />
                 <Switch name="SmeltSnow" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" />

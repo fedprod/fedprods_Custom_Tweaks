@@ -1,0 +1,61 @@
+﻿Key,english,german
+
+modBikeSpeedBoost,Bicycle Speed Boost,Fahrrad Geschwindigkeitsboost
+BikeBoostDesc, "Increases bicycle speed.", "Erhöht die Geschwindigkeit des Fahrrads."
+
+cmtRetroFridge,Retro Fridge,Retro-Kühlschrank
+Computer,Bonazon Computer,Bonazon Computer
+Wood Burning Stove,Wood Burning Stove,Holzofen
+Oven,Cooking Oven,Kochofen
+Cooler,Drinks Cooler,Getränke-Kühler
+Microwave,Functional Microwave,Mikrowelle
+Fridge,Steel Fridge,Edelstahl-Kühlschrank
+Hydroponic,Hydroponic Cultivation,Hydroponische Zucht
+cntCompactWaterFilter,Compact Water Filter,Kompakter Wasserfilter
+DBTableSaw,Table Saw,Tischsäge
+DBGearShelves,Gear Shelves,Ausrüstungsregale
+DBAmmoStorage,Ammo Storage,Munitionslager
+DBCoffeeMaker,Coffee Maker,Kaffeemaschine
+DBCommercialCoffeeMaker,Commercial Coffee Maker,Kommerzielle Kaffeemaschine
+
+mistaFridgeDesc, "A place to store food and drink.", "Ein Platz zum lagern von Essen und Trinken."
+mistaFridge02Desc, "A stainless steel fridge with plenty of room to store food.", "Ein Edelstahlkühlschrank mit einer menge Stauraum für Fressalien."
+BingbongDesc, "Order goods off of Bongazon with Duke coins.", "Bestelle tolle Sachen bei Bonazon mit Duke-Jetons."
+SodaDesc, "A compact water filter that will purify water.", "Ein kompakter Wasserfilter für enge Lagerräume."
+WoodBurningStoveDesc, "Will cook your food and warm your home.", "Erwärmt das Essen und die Behausung."
+OvenDesc, "Cooks meals.", "Kocht essen."
+TBsawDesc, "Efficiently create wood based traps and items.", "Erstellt effizienter Holzfallen und Gegenstände."
+MCwaveDesc, "Heats up food.", "Heizt essen auf."
+CoolaDesc, "A cool place to store your drinks.", "Ein kühler Platz um Getränke zu lagern."
+AmmoDesc, "A place to hold lots of ammo.", "Ein Lager für eine Menge an Munition."
+CanthDesc, "Gear racks.", "Ausrüstungsregale, für den Kistenmuffel."
+HydroDesc, "Harvest seeds for growing.", "Züchtet Planzensamen zum anpflanzen."
+CoffDesc, "Brews your coffee.", "Braut köstlichen Kaffee."
+CommDesc, "Also brews coffee.", "Braut auch Kaffee, nur lauter und teurer."
+ToastDesc, "Makes toast.", "Macht Toast und Brot."
+BookCasexDesc, "Store your books here.", "Ein Hort für Bücher."
+
+BeeHive,"[FFFF00]Empty BeeHive","[FFFF00]Leerer Bienenstock"
+BeeHiveDesc, "Place this to start your hive. Once planted, wait until it changes from Brown to Green and is ready to harvest.", "Platzieren um einen Bienenstock zu starten. Nach dem setzen warten bis die Farbe von Braun nach Grün gewechselt und zur Ernte bereit ist."
+BeeHiveFull,[00FF00]Germinated BeeHive,[00FF00]Bestäubter Bienenstock
+BeeHiveFullDesc, [00FF00]Germinated BeeHive [FFFFFF]- [FFFF00]Left-Click to Harvest, [00FF00]Bestäubter Bienenstock [FFFFFF]- [FFFF00]Links-Klick zum sammeln
+
+chickencage1,"[FFFF00]Chicken Cage","[FFFF00]Hühnerkäfig",
+chickencage1Desc,"Place this down and wait until it prompts you to harvest. Upon harvest, you get feathers and eggs!", "Plazieren und warten bis ein unsichtbares Huhn beim nicht hinschauen genistet hat. Erfolgreiches Sammeln gibt Eier und Federn", 
+chickencageharvested,[00FF00]Chicken Eggs - Ready to harvest!,[00FF00]Ein volles Nest - Bereit zum Sammeln!
+chickencageharvestedDesc, [00FF00]Chicken Cage [FFFFFF]- [FFFF00]Left-Click to Harvest,[00FF00]Hühnerkäfig [FFFFFF]- [FFFF00]Links-Klick zum sammeln
+seedsT2-6,[FFFF00]Tier 2: Chicken cage,[FFFF00]Stufe 2: Hühnerkäfig
+
+Bacon N Eggs MRE,Bacon N Eggs MRE,Speck mit Eiern MRE
+Baked Potato MRE,Baked Potato MRE,Gepackene Kartoffeln MRE
+Meat Stew MRE,Meat Stew MRE,Wildbreteintopf MRE
+Overloaded MRE,Overloaded MRE,Überladene MRE
+Spaghetti MRE,Spaghetti MRE,Spaghetti MRE
+Dessert MRE,Dessert MRE,Nachtisch MRE
+Tactical MRE,Tactical MRE,Taktische MRE
+Vegan MRE,Vegan MRE,Vegane MRE
+MREDesc, "Meals Ready to Eat (MRE) are pre-portioned packets of food, drinks and other daily requirements. Simply heat and stir.", "Meals Ready to Eat (Fertiggerichte) sind vorportionierte Pakete mit Lebensmitteln, Getränken und anderem täglichen Bedarf. Einfach erhitzen und umrühren."
+
+workstationsT1-DewGatherer,"Tier 1: Gatherer[-] - A basic dew collector that gathers water from the environment.","Stufe 1: Sammler[-] - Ein einfacher Tausammler, der Wasser aus der Umgebung auffängt."
+workstationsT2-DewTarp,"Tier 2: Tarp[-] - A tarp that increases water collection efficiency.","Stufe 2: Plane[-] - Eine einfache Plane, die die Effizienz der Wasseraufnahme erhöht."
+workstationsT3-DewFilter,"Tier 3: Water Filter[-] - A filter that purifies collected water, making it safe to drink.","Stufe 3: Wasserfilter[-] - Ein Filter, der das gesammelte Wasser reinigt, so dass es sicher getrunken werden kann."
