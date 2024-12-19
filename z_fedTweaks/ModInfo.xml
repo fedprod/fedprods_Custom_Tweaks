@@ -5,6 +5,8 @@
 		<Description value="A customizable Tweak Mod&#13;&#10;
         All Features are either Customizable or Toggleable per Gears:&#13;&#10;
         Customizable:&#13;&#10;
+        - Barbed Wire, Iron and Wood Trap Durability&#13;&#10;
+        - Loot Bag chance and despawn timers&#13;&#10;
         - Skill Points when finishing the Basic Challenge&#13;&#10;
         - &#13;&#10;
         - Toggleable:&#13;&#10;
@@ -17,15 +19,13 @@
     <!--
     ToDo:
         Customizable:
-        - Iron and Wood Trap Durability&#13;&#10;
-        - Loot Bag chance and despawn timers&#13;&#10;
-        - Item Stack Amounts by Types / Quality&#13;&#10;
         - Tree Growth and Honey drop chance&#13;&#10;
+        - Item Stack Amounts by Types / Quality&#13;&#10;
         - &#13;&#10;
         Toggleable:
         - Pick up Storage Crates and Workbenches&#13;&#10;
 -->
 		<Author value="fedprod" />
-		<Version value="1.0.2.4" />
+		<Version value="1.0.2.5" />
 		<Website value="https://github.com/fedprod/fedprods_Custom_Tweaks" />
 </xml>

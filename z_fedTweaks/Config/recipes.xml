@@ -13,14 +13,6 @@
             <else />
         </conditional>
     </craftacid>
-    <craftappliances>
-            <conditional>
-            <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftAppliances') == 'On'">
-
-            </if>
-            <else />
-        </conditional>
-    </craftappliances>
     <craftcandy>
         <conditional>
             <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftCandy') == 'On'">
@@ -90,14 +82,6 @@
             <else />
         </conditional>
     </craftcandy>
-    <craftdewmods>
-        <conditional>
-            <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftDewMods') == 'On'">
-
-            </if>
-            <else />
-        </conditional>
-    </craftdewmods>
     <craftlegendary>
         <conditional>
             <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftLegendary') == 'On'">
@@ -115,14 +99,6 @@
             <else />
         </conditional>
     </craftlegendary>
-    <craftmres>
-            <conditional>
-            <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftMREs') == 'On'">
-
-            </if>
-            <else />
-        </conditional>
-    </craftmres>
     <craftpainkillers>
         <conditional>
             <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftPainkillers') == 'On'">
