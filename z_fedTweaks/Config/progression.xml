@@ -6,7 +6,7 @@
                 <set xpath="/progression/crafting_skills[1]/crafting_skill[@name='craftingElectrician']/effect_group/passive_effect[4]/@tags">carBattery,solarbank,solarCell</set>
                 <set xpath="/progression/crafting_skills[1]/crafting_skill[@name='craftingElectrician']/effect_group/passive_effect[5]/@tags">carBattery,solarbank,solarCell</set>
             </if>
-            <else />
+            
         </conditional>
     </craftsolars>
     <craftvitamins>
@@ -15,7 +15,7 @@
                 <set xpath="/progression/crafting_skills/crafting_skill[@name='craftingMedical']/display_entry[@icon='craftingMedical']/display_entry[1]/@icon">medicalFirstAidBandage,drugFortBites,drugVitamins</set>
                 <set xpath="/progression/crafting_skills/crafting_skill[@name='craftingMedical']/display_entry[@icon='craftingMedical']/display_entry[1]/unlocl_entry[1]/@item">medicalFirstAidBandage,drugVitamins</set>
             </if>
-            <else />
+            
         </conditional>
     </craftvitamins>
 </z_fedTweaks>

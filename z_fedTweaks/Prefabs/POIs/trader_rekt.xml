@@ -104,6 +104,5 @@
                 </property>
             </prefab>
         </if>
-        <else />
     </conditional>
 </z_fedTweaks>

@@ -51,7 +51,7 @@
                 <set xpath="/items/item[@name='bookFiremansAlmanacHeat']/property[@name='Stacknumber']/@value">25</set>
                 <set xpath="/items/item[@name='masterSkillMagazine']/property[@name='Stacknumber']/@value">25</set>
             </if>
-            <else />
+            
         </conditional>
     </optimalstacks>
     <craftparts>
@@ -61,7 +61,7 @@
                     <property name="Group" value="Tools/Traps"/>
                 </append>
             </if>
-            <else />
+            
         </conditional>
     </craftparts>
     <craftsolars>
@@ -74,7 +74,7 @@
                         <property name="UnlockedBy" value="craftingElectrician"/>
                     </append>
             </if>
-            <else />
+            
         </conditional>
     </craftsolars>
     <craftvitamins>
@@ -82,7 +82,7 @@
             <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftVitamins') == 'On'">
                 <append xpath="/items/item[@name='drugVitamins']/property[@name='Tags']/@value">,learnable,chemStationCrafting</append>
             </if>
-            <else />
+            
         </conditional>
     </craftvitamins>
 </z_fedTweaks>

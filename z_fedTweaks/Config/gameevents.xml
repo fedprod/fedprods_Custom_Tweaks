@@ -10,7 +10,7 @@
             <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Tweaks.Gameplay.SetBasicChallengeSP') == '28'">
                 <set xpath="gameevents/action_sequence[@name='challenge_group_reward_basics']/action[@class='AddSkillPoints']/property[@name='skill_points']/@value">28</set>
             </if>
-            <else />
+            
         </conditional>
     </skillpoints>
 </z_fedTweaks>

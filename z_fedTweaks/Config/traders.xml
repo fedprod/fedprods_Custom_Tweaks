@@ -13,7 +13,7 @@
                 <removeattribute xpath="/traders/trader_info[@id='8']/@open_time" />
                 <removeattribute xpath="/traders/trader_info[@id='8']/@close_time" />
             </if>
-            <else />
+            
         </conditional>
     </opentraders>
 </z_fedTweaks>

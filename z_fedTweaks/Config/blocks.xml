@@ -12,7 +12,7 @@
                         <drop event="Destroy" name="foodHoney" prob=".50" count="1"/>
                     </append>
             </if>
-            <else />
+            
         </conditional>
     </morehoney>
     <fastcrops>
@@ -20,7 +20,7 @@
             <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Tweaks.Gameplay.FastCrops') == 'On'">
                 <set xpath="blocks/block[@name='cropsGrowingMaster']/property[@name='PlantGrowing.GrowthRate']/@value">5</set>
             </if>
-            <else />
+            
         </conditional>
     </fastcrops>
     <fasttrees>
@@ -28,7 +28,7 @@
             <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Tweaks.Gameplay.FastTrees') == 'On'">
                 <set xpath="blocks/block[@name='treeMasterGrowing']/property[@name='PlantGrowing.GrowthRate']/@value">5</set>
             </if>
-            <else />
+            
         </conditional>
     </fasttrees>
     <trapdurability>
@@ -51,7 +51,7 @@
                 <set xpath="blocks/block[@name='electricfencepost']/property[@name='MaxDamage']/@value">5000</set>
                 <set xpath="blocks/block[@name='barbedFence']/property[@name='MaxDamage']/@value">500</set>
             </if>
-            <else />
+            
         </conditional>
     </trapdurability>
 </z_fedTweaks>

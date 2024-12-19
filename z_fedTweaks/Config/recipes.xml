@@ -10,7 +10,7 @@
                     </recipe>
                 </append>
             </if>
-            <else />
+            
         </conditional>
     </craftacid>
     <craftcandy>
@@ -79,7 +79,7 @@
                     </recipe>
                 </append>
              </if>
-            <else />
+            
         </conditional>
     </craftcandy>
     <craftlegendary>
@@ -96,7 +96,7 @@
                     </recipe>
                 </append>
             </if>
-            <else />
+            
         </conditional>
     </craftlegendary>
     <craftpainkillers>
@@ -112,7 +112,7 @@
                     </recipe>
                 </append>
             </if>
-            <else />
+            
         </conditional>
     </craftpainkillers>
     <craftparts>
@@ -205,7 +205,7 @@
                     </recipe>
                 </append>
             </if>
-            <else />
+            
         </conditionsal>
     </craftparts>
     <craftsolars>
@@ -231,7 +231,7 @@
                     </recipe>
                 </append>
             </if>
-            <else />
+            
         </conditional>
     </craftsolars>
     <craftvitamins>
@@ -250,7 +250,7 @@
                     </recipe>
                 </append>
             </if>
-            <else />
+            
         </conditional>
     </craftvitamins>
     <smeltcoal>
@@ -262,7 +262,7 @@
                     </recipe>
                 </append>
             </if>
-            <else />
+            
         </conditional>
     </smeltcoal>
     <smeltsnow>
@@ -274,7 +274,7 @@
                     </recipe>
                 </append>
             </if>
-            <else />
+            
         </conditional>
     </smeltsnow>
     <nolegendaryt0>
@@ -282,7 +282,7 @@
             <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.NoLegendaryT0') == 'On'">
                 <remove xpath="/recipes/recipe[contains(@name,'T0') or contains(@name,'armorPrimitive')]/effect_group/passive_effect[@tags='resourceLegendaryParts']" />
             </if>
-            <else />
+            
         </conditional>
     </nolegendaryt0>
 </z_fedTweaks>

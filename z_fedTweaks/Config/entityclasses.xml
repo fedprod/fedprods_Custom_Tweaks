@@ -7,7 +7,7 @@
                 <set xpath="/entity_classes/entity_class[contains(@name, 'Radiated')]/property[@name='LootDropProb']/@value">.2</set>
                 <set xpath="/entity_classes/entity_class[@name='zombieWightFeral']/property[@name='LootDropProb']/@value">.12</set>
             </if>
-            <else />
+            
         </conditional>
     </moreloot>
     <longerloot>
@@ -20,7 +20,7 @@
                 <set xpath="/entity_classes/entity_class[@name='DroppedLootContainer']/property[@name='TimeStayAfterDeath']/@value">3600</set>
                 <set xpath="/entity_classes/entity_class[starts-with(@name, 'EntityLootContainer')]/property[@name='TimeStayAfterDeath']/@value">3600</set>
             </if>
-            <else />
+            
         </conditional>
     </longerloot>
 </z_fedTweaks>
