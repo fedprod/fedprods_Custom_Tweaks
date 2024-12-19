@@ -1,0 +1,7 @@
+﻿<fasttrees>
+    <conditional>
+        <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Tweaks.Gameplay.FastTrees') == 'On'">
+            <set xpath="blocks/block[@name='treeMasterGrowing']/property[@name='PlantGrowing.GrowthRate']/@value">5</set>
+        </if>
+    </conditional>
+</fasttrees>

@@ -1,0 +1,54 @@
+<optimalstacks>
+    <conditional>
+        <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Tweaks.Gameplay.OptimizedStacks') == 'On'">
+            <set xpath="/items/item[starts-with (@name,'ammo9mm')]/property[@name='Stacknumber']/@value">600</set>
+            <set xpath="/items/item[starts-with (@name,'ammo44Magnum')]/property[@name='Stacknumber']/@value">600</set>
+            <set xpath="/items/item[starts-with (@name,'ammo762mm')]/property[@name='Stacknumber']/@value">300</set>
+            <set xpath="/items/item[starts-with (@name,'ammoShotgun')]/property[@name='Stacknumber']/@value">300</set>
+            <set xpath="/items/item[starts-with (@name,'ammoJunkTurret')]/property[@name='Stacknumber']/@value">1000</set>
+            <set xpath="/items/item[starts-with (@name,'ammoRocket')]/property[@name='Stacknumber']/@value">50</set>
+            <set xpath="/items/item[starts-with (@name,'ammoGasCan')]/property[@name='Stacknumber']/@value">10000</set>
+            <set xpath="/items/item[starts-with (@name,'ammoArrow')]/property[@name='Stacknumber']/@value">150</set>
+            <set xpath="/items/item[starts-with (@name,'ammoCrossbow')]/property[@name='Stacknumber']/@value">150</set>
+            <set xpath="/items/item[@name='ammoBundleMaster']/property[@name='Stacknumber']/@value">20</set>
+            <set xpath="/items/item[starts-with (@name,'ammoBundle9mm')]/property[@name='Stacknumber']/@value">20</set>
+            <set xpath="/items/item[starts-with (@name,'ammoBundle44')]/property[@name='Stacknumber']/@value">20</set>
+            <set xpath="/items/item[starts-with (@name,'ammoDart')]/property[@name='Stacknumber']/@value">500</set>
+            <set xpath="/items/item[starts-with (@name,'thrown')]/property[@name='Stacknumber']/@value">25</set>
+            <set xpath="/items/item[starts-with (@name,'medical')]/property[@name='Stacknumber']/@value">20</set>
+            <set xpath="/items/item[starts-with (@name,'drug')]/property[@name='Stacknumber']/@value">20</set>
+            <set xpath="/items/item[starts-with (@name,'food')]/property[@name='Stacknumber']/@value">25</set>
+            <set xpath="/items/item[@name='foodRottingFlesh']/property[@name='Stacknumber']/@value">250</set>
+            <set xpath="/items/item[@name='foodRawMeat']/property[@name='Stacknumber']/@value">250</set>
+            <set xpath="/items/item[@name='foodEgg']/property[@name='Stacknumber']/@value">250</set>
+            <set xpath="/items/item[@name='foodCornMeal']/property[@name='Stacknumber']/@value">250</set>
+            <set xpath="/items/item[starts-with (@name,'foodCrop')]/property[@name='Stacknumber']/@value">250</set>
+            <set xpath="/items/item[starts-with (@name,'drink')]/property[@name='Stacknumber']/@value">25</set>
+            <set xpath="/items/item[@name='drinkJarRiverWater']/property[@name='Stacknumber']/@value">250</set>
+            <set xpath="/items/item[@name='resourceAcid']/property[@name='Stacknumber']/@value">500</set>
+            <set xpath="/items/item[@name='resourceBone']/property[@name='Stacknumber']/@value">6000</set>
+            <set xpath="/items/item[@name='resourceLeather']/property[@name='Stacknumber']/@value">500</set>
+            <set xpath="/items/item[@name='resourceTestosteroneExtract']/property[@name='Stacknumber']/@value">50</set>
+            <set xpath="/items/item[@name='resourceCobblestones']/property[@name='Stacknumber']/@value">6000</set>
+            <set xpath="/items/item[@name='resourceCement']/property[@name='Stacknumber']/@value">6000</set>
+            <set xpath="/items/item[@name='resourceConcreteMix']/property[@name='Stacknumber']/@value">6000</set>
+            <set xpath="/items/item[@name='resourceCloth']/property[@name='Stacknumber']/@value">500</set>
+            <set xpath="/items/item[@name='resourceFeather']/property[@name='Stacknumber']/@value">500</set>
+            <set xpath="/items/item[@name='resourceGunpowder']/property[@name='Stacknumber']/@value">6000</set>
+            <set xpath="/items/item[@name='resourceBuckshot']/property[@name='Stacknumber']/@value">6000</set>
+            <set xpath="/items/item[@name='resourceBulletCasing']/property[@name='Stacknumber']/@value">6000</set>
+            <set xpath="/items/item[@name='resourceBulletTip']/property[@name='Stacknumber']/@value">6000</set>
+            <set xpath="/items/item[@name='resourceRadiator']/property[@name='Stacknumber']/@value">25</set>
+            <set xpath="/items/item[@name='resourceSilverNugget']/property[@name='Stacknumber']/@value">500</set>
+            <set xpath="/items/item[@name='smallEngine']/property[@name='Stacknumber']/@value">5</set>
+            <set xpath="/items/item[@name='casinoCoin']/property[@name='Stacknumber']/@value">50000</set>
+            <set xpath="/items/item[@name='oldCash']/property[@name='Stacknumber']/@value">25000</set>
+            <set xpath="/items/item[@name='toolCookingGrill']/property[@name='Stacknumber']/@value">5</set>
+            <set xpath="/items/item[@name='toolCookingPot']/property[@name='Stacknumber']/@value">5</set>
+            <set xpath="/items/item[@name='unit_iron']/property[@name='Stacknumber']/@value">50000</set>
+            <set xpath="/items/item[starts-with (@name,'book')]/property[@name='Stacknumber']/@value">25</set>
+            <set xpath="/items/item[@name='bookFiremansAlmanacHeat']/property[@name='Stacknumber']/@value">25</set>
+            <set xpath="/items/item[@name='masterSkillMagazine']/property[@name='Stacknumber']/@value">25</set>
+        </if>
+    </conditional>
+</optimalstacks>

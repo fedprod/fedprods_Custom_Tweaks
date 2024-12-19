@@ -1,0 +1,7 @@
+﻿<fastcrops>
+    <conditional>
+        <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Tweaks.Gameplay.FastCrops') == 'On'">
+            <set xpath="blocks/block[@name='cropsGrowingMaster']/property[@name='PlantGrowing.GrowthRate']/@value">5</set>
+        </if>
+    </conditional>
+</fastcrops>

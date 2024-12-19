@@ -1,0 +1,22 @@
+﻿<trapdurability>
+    <conditional>
+        <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Tweaks.Gameplay.TrapDurability') == 'x3'">
+            <set xpath="blocks/block[@name='trapSpikesWoodMaster']/property[@name='MaxDamage']/@value">300</set>
+            <set xpath="blocks/block[@name='trapSpikesScrapIronMaster']/property[@name='MaxDamage']/@value">600</set>
+            <set xpath="blocks/block[@name='electricfencepost']/property[@name='MaxDamage']/@value">600</set>
+            <set xpath="blocks/block[@name='barbedFence']/property[@name='MaxDamage']/@value">150</set>
+        </if>
+        <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Tweaks.Gameplay.TrapDurability') == 'x5'">
+            <set xpath="blocks/block[@name='trapSpikesWoodMaster']/property[@name='MaxDamage']/@value">500</set>
+            <set xpath="blocks/block[@name='trapSpikesScrapIronMaster']/property[@name='MaxDamage']/@value">1000</set>
+            <set xpath="blocks/block[@name='electricfencepost']/property[@name='MaxDamage']/@value">1000</set>
+            <set xpath="blocks/block[@name='barbedFence']/property[@name='MaxDamage']/@value">250</set>
+        </if>
+        <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Tweaks.Gameplay.TrapDurability') == 'x10'">
+            <set xpath="blocks/block[@name='trapSpikesWoodMaster']/property[@name='MaxDamage']/@value">1000</set>
+            <set xpath="blocks/block[@name='trapSpikesScrapIronMaster']/property[@name='MaxDamage']/@value">5000</set>
+            <set xpath="blocks/block[@name='electricfencepost']/property[@name='MaxDamage']/@value">5000</set>
+            <set xpath="blocks/block[@name='barbedFence']/property[@name='MaxDamage']/@value">500</set>
+        </if>
+    </conditional>
+</trapdurability>

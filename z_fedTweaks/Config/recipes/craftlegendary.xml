@@ -1,0 +1,16 @@
+<craftlegendary>
+    <conditional>
+        <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftLegendary') == 'On'">
+            <append xpath="/recipes">
+                <recipe name="resourceLegendaryParts" count="1" craft_area="workbench" craft_time="120" tags="perkAdvancedEngineering">
+                    <ingredient name="resourceForgedSteel" count="20"/>
+                    <ingredient name="resourceMechanicalParts" count="25"/>
+                    <ingredient name="resourceElectricParts" count="20"/>
+                    <ingredient name="resourceOil" count="10"/>
+                    <ingredient name="resourceScrapPolymers" count="15"/>
+                    <craft_exp_gain value="50"/>
+                </recipe>
+            </append>
+        </if>
+    </conditional>
+</craftlegendary>

@@ -1,0 +1,7 @@
+<nolegendaryt0>
+    <conditional>
+        <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.NoLegendaryT0') == 'On'">
+            <remove xpath="/recipes/recipe[contains(@name,'T0') or contains(@name,'armorPrimitive')]/effect_group/passive_effect[@tags='resourceLegendaryParts']"/>
+        </if>
+    </conditional>
+</nolegendaryt0>

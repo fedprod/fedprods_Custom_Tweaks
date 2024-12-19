@@ -1,0 +1,7 @@
+<craftvitamins>
+    <conditional>
+        <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftVitamins') == 'On'">
+            <append xpath="/items/item[@name='drugVitamins']/property[@name='Tags']/@value">,learnable,chemStationCrafting</append>
+        </if>
+    </conditional>
+</craftvitamins>

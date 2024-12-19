@@ -1,0 +1,13 @@
+<craftacid>
+    <conditional>
+        <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftAcid') == 'On'">
+            <append xpath="/recipes">
+                <recipe name="resourceAcid" count="6" craft_time="10" craft_area="workbench" tags="workbenchCrafting">
+                    <ingredient name="resourceScrapPolymers" count="6"/>
+                    <ingredient name="resourceCoal" count="5"/>
+                    <ingredient name="carBattery" count="1"/>
+                </recipe>
+            </append>
+        </if>
+    </conditional>
+</craftacid>

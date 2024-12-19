@@ -1,0 +1,68 @@
+<craftcandy>
+    <conditional>
+        <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftCandy') == 'On'">
+            <append xpath="/recipes">
+                <recipe name="drugSkullCrushers" count="1" craft_area="chemistryStation" tags="chemStationCrafting">
+                    <ingredient name="resourceRockSmall" count="100"/>
+                    <ingredient name="resourceBone" count="10"/>
+                    <ingredient name="resourceNail" count="10"/>
+                    <ingredient name="resourceBone" count="1"/>
+                </recipe>
+                <recipe name="drugHackers" count="1" craft_area="chemistryStation" tags="chemStationCrafting">
+                    <ingredient name="resourceScrapIron" count="50"/>
+                    <ingredient name="resourceNail" count="10"/>
+                    <ingredient name="resourceMetalPipe" count="1"/>
+                    <ingredient name="resourceMechanicalParts" count="2"/>
+                </recipe>
+                <recipe name="drugOhShitzDrops" count="1" craft_area="chemistryStation" tags="chemStationCrafting">
+                    <ingredient name="resourceFeather" count="25"/>
+                    <ingredient name="drinkJarBoiledWater" count="1"/>
+                    <ingredient name="resourceYuccaFibers" count="100"/>
+                </recipe>
+                <recipe name="drugAtomJunkies" count="1" craft_area="chemistryStation" tags="chemStationCrafting">
+                    <ingredient name="resourceGunPowder" count="50"/>
+                    <ingredient name="drinkJarBoiledWater" count="1"/>
+                </recipe>
+                <recipe name="drugEyeKandy" count="1" craft_area="chemistryStation" tags="chemStationCrafting">
+                    <ingredient name="resourceCloth" count="10"/>
+                    <ingredient name="foodCornMeal" count="3"/>
+                    <ingredient name="resourceMetalPipe" count="1"/>
+                    <ingredient name="resourceAcid" count="1"/>
+                </recipe>
+                <recipe name="drugJailBreakers" count="1" craft_area="chemistryStation" tags="chemStationCrafting">
+                    <ingredient name="resourceLockPick" count="1"/>
+                    <ingredient name="foodRawMeat" count="1"/>
+                    <ingredient name="resourceAcid" count="1"/>
+                </recipe>
+                <recipe name="drugHealthBar" count="1" craft_area="chemistryStation" tags="chemStationCrafting">
+                    <ingredient name="foodRawMeat" count="3"/>
+                    <ingredient name="medicalBandage" count="1"/>
+                    <ingredient name="foodCornMeal" count="3"/>
+                    <ingredient name="drinkJarBoiledWater" count="2"/>
+                </recipe>
+                <recipe name="drugRockBusters" count="1" craft_area="chemistryStation" tags="chemStationCrafting">
+                    <ingredient name="resourceRockSmall" count="100"/>
+                    <ingredient name="resourceScrapIron" count="100"/>
+                    <ingredient name="resourceScrapLead" count="100"/>
+                    <ingredient name="resourceAcid" count="1"/>
+                </recipe>
+                <recipe name="drugNerdTats" count="1" craft_area="chemistryStation" tags="chemStationCrafting">
+                    <ingredient name="resourceElectricParts" count="10"/>
+                    <ingredient name="foodRawMeat" count="1"/>
+                    <ingredient name="resourceAcid" count="1"/>
+                </recipe>
+                <recipe name="drugCovertCats" count="1" craft_area="chemistryStation" tags="chemStationCrafting">
+                    <ingredient name="resourceFeather" count="10"/>
+                    <ingredient name="resourceCropCottonPlant" count="10"/>
+                    <ingredient name="foodRawMeat" count="1"/>
+                </recipe>
+                <recipe name="drugSugarButts" count="1" craft_area="chemistryStation" tags="chemStationCrafting">
+                    <ingredient name="casinoCoin" count="100"/>
+                    <ingredient name="drinkJarBeer" count="2"/>
+                    <ingredient name="foodRawMeat" count="1"/>
+                    <ingredient name="resourceAcid" count="1"/>
+                </recipe>
+            </append>
+        </if>
+    </conditional>
+</craftcandy>

@@ -1,21 +1,4 @@
-<z_fedTweaks>
-    <craftsolars>
-            <conditional>
-            <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftSolars') == 'On'">
-                <set xpath="/progression/crafting_skills/crafting_skill[@name='craftingElectrician']/display_entry[4]/unlock_entry/@item">carBattery,solarbank,solarCell</set>
-                <set xpath="/progression/crafting_skills[1]/crafting_skill[@name='craftingElectrician']/effect_group/passive_effect[4]/@tags">carBattery,solarbank,solarCell</set>
-                <set xpath="/progression/crafting_skills[1]/crafting_skill[@name='craftingElectrician']/effect_group/passive_effect[5]/@tags">carBattery,solarbank,solarCell</set>
-            </if>
-            
-        </conditional>
-    </craftsolars>
-    <craftvitamins>
-        <conditional>
-            <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftVitamins') == 'On'">
-                <set xpath="/progression/crafting_skills/crafting_skill[@name='craftingMedical']/display_entry[@icon='craftingMedical']/display_entry[1]/@icon">medicalFirstAidBandage,drugFortBites,drugVitamins</set>
-                <set xpath="/progression/crafting_skills/crafting_skill[@name='craftingMedical']/display_entry[@icon='craftingMedical']/display_entry[1]/unlocl_entry[1]/@item">medicalFirstAidBandage,drugVitamins</set>
-            </if>
-            
-        </conditional>
-    </craftvitamins>
-</z_fedTweaks>
+<config>
+    <include filename="progression/craftsolars.xml"/>
+    <include filename="progression/craftvitamins.xml"/>
+</config>
