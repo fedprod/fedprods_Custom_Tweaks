@@ -1,7 +1,5 @@
 <z_fedTweaks>
-    <!--
-    Craft Solar Banks and Cells
--->
+    <craftsolars>
             <conditional>
             <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftSolars') == 'On'">
                 <set xpath="/progression/crafting_skills/crafting_skill[@name='craftingElectrician']/display_entry[4]/unlock_entry/@item">carBattery,solarbank,solarCell</set>
@@ -10,9 +8,8 @@
             </if>
             <else />
         </conditional>
-    <!--
-    Craft Vitamins
--->
+    </craftsolars>
+    <craftvitamins>
         <conditional>
             <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftVitamins') == 'On'">
                 <set xpath="/progression/crafting_skills/crafting_skill[@name='craftingMedical']/display_entry[@icon='craftingMedical']/display_entry[1]/@icon">medicalFirstAidBandage,drugFortBites,drugVitamins</set>
@@ -20,7 +17,5 @@
             </if>
             <else />
         </conditional>
-    <!--
-    
--->
+    </craftvitamins>
 </z_fedTweaks>
