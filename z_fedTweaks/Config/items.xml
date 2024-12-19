@@ -1,5 +1,7 @@
 <z_fedTweaks>
-    <optimalstacks>
+    <!--
+    Change Item Stack sizes to a more Optimal Amount
+-->
         <conditional>
             <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Tweaks.Gameplay.OptimizedStacks') == 'On'">
                 <set xpath="/items/item[starts-with (@name,'ammo9mm')]/property[@name='Stacknumber']/@value">600</set>
@@ -53,8 +55,9 @@
             </if>
             <else />
         </conditional>
-    </optimalstacks>
-    <craftparts>
+    <!--
+    Craft Component Parts
+-->
         <conditional>
             <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftParts') == 'On'">
                 <append xpath="/items/item[(starts-with(@name, 'armor') or starts-with(@name, 'gun') or starts-with(@name, 'melee')) and contains(@name, 'Parts')]">
@@ -63,8 +66,9 @@
             </if>
             <else />
         </conditional>
-    </craftparts>
-    <craftsolars>
+    <!--
+    Craft Solar Banks and Cells
+-->
         <conditional>
             <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftSolars') == 'On'">
                     <append xpath="/items/item[@name='solarbank']">
@@ -76,13 +80,16 @@
             </if>
             <else />
         </conditional>
-    </craftsolars>
-    <craftvitamins>
+    <!--
+    Craft Vitamins
+-->
         <conditional>
             <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftVitamins') == 'On'">
                 <append xpath="/items/item[@name='drugVitamins']/property[@name='Tags']/@value">,learnable,chemStationCrafting</append>
             </if>
             <else />
         </conditional>
-    </craftvitamins>
+    <!--
+    
+-->
 </z_fedTweaks>

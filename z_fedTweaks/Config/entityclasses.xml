@@ -1,5 +1,7 @@
 <z_fedTweaks>
-    <moreloot>
+    <!--
+    More Loot Drops from Zombies
+-->
         <conditional>
             <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Tweaks.Gameplay.MoreLoot') == 'On'">
                 <set xpath="/entity_classes/entity_class[starts-with(@name, 'zombieTemplate')]/property[@name='LootDropProb']/@value">.05</set>
@@ -9,8 +11,9 @@
             </if>
             <else />
         </conditional>
-    </moreloot>
-    <longerloot>
+    <!--
+    Loot Bags Stay Longer (Time in seconds)
+-->
         <conditional>
             <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Tweaks.Gameplay.LongerLoot') == 'x2'">
                 <set xpath="/entity_classes/entity_class[@name='DroppedLootContainer']/property[@name='TimeStayAfterDeath']/@value">2400</set>
@@ -22,7 +25,9 @@
             </if>
             <else />
         </conditional>
-    </longerloot>
+    <!--
+    
+-->
 </z_fedTweaks>
 
 

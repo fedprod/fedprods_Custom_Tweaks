@@ -1,5 +1,7 @@
 <z_fedTweaks>
-    <craftacid>
+    <!--
+    Craft Acid
+-->
         <conditional>
             <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftAcid') == 'On'">
                 <append xpath="/recipes">
@@ -12,16 +14,18 @@
             </if>
             <else />
         </conditional>
-    </craftacid>
-    <craftappliances>
+    <!--
+    Craft Appliances
+-->
             <conditional>
             <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftAppliances') == 'On'">
 
             </if>
             <else />
         </conditional>
-    </craftappliances>
-    <craftcandy>
+    <!--
+    Craft Candies
+-->
         <conditional>
             <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftCandy') == 'On'">
                 <append xpath="/recipes">
@@ -89,16 +93,18 @@
              </if>
             <else />
         </conditional>
-    </craftcandy>
-    <craftdewmods>
+    <!--
+    Craft Mods for the Dew Collector
+-->
         <conditional>
             <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftDewMods') == 'On'">
 
             </if>
             <else />
         </conditional>
-    </craftdewmods>
-    <craftlegendary>
+    <!--
+    Craft Legendary Parts
+-->
         <conditional>
             <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftLegendary') == 'On'">
                 <append xpath="/recipes">
@@ -114,16 +120,18 @@
             </if>
             <else />
         </conditional>
-    </craftlegendary>
-    <craftmres>
+    <!--
+    Craft Meals Ready to Eat
+-->
             <conditional>
             <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftMREs') == 'On'">
 
             </if>
             <else />
         </conditional>
-    </craftmres>
-    <craftpainkillers>
+    <!--
+    Craft Painkillers
+-->
         <conditional>
             <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftPainkillers') == 'On'">
                 <append xpath="/recipes">
@@ -138,9 +146,10 @@
             </if>
             <else />
         </conditional>
-    </craftpainkillers>
-    <craftparts>
-        <conditionsal>
+    <!--
+    Craft Component Parts
+-->
+        <conditional>
             <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftParts') == 'On'">
                 <append xpath="/recipes">
                     <recipe name="gunMGT1AK47Parts" count="1" craft_area="workbench" tags="workbenchCrafting">
@@ -230,9 +239,10 @@
                 </append>
             </if>
             <else />
-        </conditionsal>
-    </craftparts>
-    <craftsolars>
+        </conditional>
+    <!--
+    Craft Solar Banks and Cells
+-->
             <conditional>
             <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftSolars') == 'On'">
                 <append xpath="/recipes">
@@ -257,8 +267,9 @@
             </if>
             <else />
         </conditional>
-    </craftsolars>
-    <craftvitamins>
+    <!--
+    Craft Vitamins
+-->
         <conditional>
             <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftVitamins') == 'On'">
                 <append xpath="/recipes">
@@ -276,8 +287,9 @@
             </if>
             <else />
         </conditional>
-    </craftvitamins>
-    <smeltcoal>
+    <!--
+    Smelt Wood to Coal
+-->
         <conditional>
             <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.SmeltCoal') == 'On'">
                 <append xpath="/recipes">
@@ -288,8 +300,9 @@
             </if>
             <else />
         </conditional>
-    </smeltcoal>
-    <smeltsnow>
+    <!--
+    Smelt Snow to Water
+-->
         <conditional>
             <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.SmeltSnow') == 'On'">
                 <append xpath="/recipes">
@@ -300,13 +313,16 @@
             </if>
             <else />
         </conditional>
-    </smeltsnow>
-    <nolegendaryt0>
+    <!--
+    Tier 0 Equipment doesn't need Legendary Parts
+-->
         <conditional>
             <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.NoLegendaryT0') == 'On'">
                 <remove xpath="/recipes/recipe[contains(@name,'T0') or contains(@name,'armorPrimitive')]/effect_group/passive_effect[@tags='resourceLegendaryParts']" />
             </if>
             <else />
         </conditional>
-    </nolegendaryt0>
+    <!--
+    
+-->
 </z_fedTweaks>

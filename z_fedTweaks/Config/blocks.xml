@@ -1,5 +1,7 @@
 ﻿<z_fedTweaks>
-    <morehoney>
+    <!--
+    More Honey drop chance from Trees
+-->
         <conditional>
             <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Tweaks.Gameplay.MoreHoney') == 'On'">
                 	<append xpath="/blocks/block[@name='treeMaster']">
@@ -14,24 +16,27 @@
             </if>
             <else />
         </conditional>
-    </morehoney>
-    <fastcrops>
+    <!--
+    Faster Crops Growth
+-->
         <conditional>
             <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Tweaks.Gameplay.FastCrops') == 'On'">
                 <set xpath="blocks/block[@name='cropsGrowingMaster']/property[@name='PlantGrowing.GrowthRate']/@value">5</set>
             </if>
             <else />
         </conditional>
-    </fastcrops>
-    <fasttrees>
+    <!--
+    Faster Trees Growth
+-->
         <conditional>
             <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Tweaks.Gameplay.FastTrees') == 'On'">
                 <set xpath="blocks/block[@name='treeMasterGrowing']/property[@name='PlantGrowing.GrowthRate']/@value">5</set>
             </if>
             <else />
         </conditional>
-    </fasttrees>
-    <trapdurability>
+    <!--
+    Higher Traps Durability
+-->
         <conditional>
             <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Tweaks.Gameplay.TrapDurability') == 'x3'">
                 <set xpath="blocks/block[@name='trapSpikesWoodMaster']/property[@name='MaxDamage']/@value">300</set>
@@ -53,5 +58,7 @@
             </if>
             <else />
         </conditional>
-    </trapdurability>
+    <!--
+    
+-->
 </z_fedTweaks>

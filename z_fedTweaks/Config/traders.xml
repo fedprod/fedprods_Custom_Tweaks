@@ -1,5 +1,7 @@
 ﻿<z_fedTweaks>
-    <opentraders>
+    <!--
+    Traders are always open
+-->
         <conditional>
             <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Tweaks.Gameplay.TradersAlwaysOpen') == 'On'">
                 <removeattribute xpath="/traders/trader_info[@id='1']/@open_time" />
@@ -15,5 +17,7 @@
             </if>
             <else />
         </conditional>
-    </opentraders>
+    <!--
+    
+-->
 </z_fedTweaks>
