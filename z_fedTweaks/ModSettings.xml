@@ -24,40 +24,40 @@
                            20:  AmmoBundle, Medical, Drugs
                             5:  Engine, Grill, Pot
                 -->
-                <Switch name="TradersNoTP" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/>
-                <Switch name="TradersAlwaysOpen" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/>
-                <Selector name="TrapDurability" displayKey="" tooltipKey="" value="Default" defaultValue="Default">
+                <Switch name="TradersNoTP" displayKey="TradersNoTP" tooltipKey="TradersNoTPDesc" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/>
+                <Switch name="TradersAlwaysOpen" displayKey="TradersAlwaysOpen" tooltipKey="TradersAlwaysOpenDesc" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/>
+                <Selector name="TrapDurability" displayKey="TrapDurability" tooltipKey="TrapDurabilityDesc" value="Default" defaultValue="Default">
                     <Property type="arrayValues" allowedValues="Default,x3,x5,x10"/>
-                    <!-- Default is 4 -->
+                    <!-- Default is Barbed Wire 50, Wood 100, Iron 200, Electric Fence 200 (per stage where applicable), multiplier -->
                 </Selector>
-                <Switch name="FastCrops" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/>
-                <Switch name="FastTrees" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/>
-                <Switch name="MoreHoney" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/>
-                <Switch name="PickupLoot" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/>
+                <Switch name="FastCrops" displayKey="FastCrops" tooltipKey="FastCropsDesc" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/>
+                <!-- Default is 63 minutes, set to 5 -->
+                <Switch name="FastTrees" displayKey="FastTrees" tooltipKey="FastTreesDesc" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/>
+                <!-- Default is 63 minutes, set to 5 -->
+                <Switch name="MoreHoney" displayKey="MoreHoney" tooltipKey="MoreHoneyDesc" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/>
+                <!-- Default is 2% Chance while felling a Tree with the Perk, and 20% from Stumps -->
+                <Switch name="MoreLoot" displayKey="MoreLoot" tooltipKey="MoreLootDesc" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/>
+                <Selector name="LongerLoot" displayKey="LongerLoot" tooltipKey="LongerLootDesc" value="Default" defaultValue="Default">
+                    <Property type="arrayValues" allowedValues="Default,x2,x3"/>
+                    <!-- Default is 1200 seconds (20 minutes), multiplier -->
+                </Selector>
+                <!-- <Switch name="PickupLoot" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/> -->
                 <!-- <Switch name="PickupStorage" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" /> -->
                 <!-- <Switch name="PickupWorkstations" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" /> -->
-                <Switch name="MoreLoot" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/>
-                <Selector name="LongerLoot" displayKey="" tooltipKey="" value="Default" defaultValue="Default">
-                    <Property type="arrayValues" allowedValues="Default,x2,x3"/>
-                    <!-- Default is 1200 seconds (20 minutes) -->
-                </Selector>
             </Category>
         </Tab>
         <Tab name="Crafting" displayKey="" tooltipKey="">
             <Category name="MoreCrafts" displayKey="" tooltipKey="">
-                <Switch name="CraftAcid" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/>
-                <!-- <Switch name="CraftAppliances" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" /> -->
-                <Switch name="CraftCandies" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/>
-                <!-- <Switch name="CraftDewMods" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" /> -->
-                <Switch name="CraftLegendary" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/>
-                <!-- <Switch name="CraftMREs" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On" /> -->
-                <Switch name="CraftPainkillers" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/>
-                <Switch name="CraftParts" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/>
-                <Switch name="CraftSolars" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/>
-                <Switch name="CraftVitamins" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/>
-                <Switch name="SmeltCoal" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/>
-                <Switch name="SmeltSnow" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/>
-                <Switch name="NoLegendaryT0" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/>
+                <Switch name="CraftAcid" displayKey="CraftAcid" tooltipKey="CraftAcidDesc" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/>
+                <Switch name="CraftLegendary" displayKey="CraftLegendary" tooltipKey="CraftLegendaryDesc" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/>
+                <Switch name="CraftMREs" displayKey="CraftMREs" tooltipKey="CraftMREsDesc" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/>
+                <Switch name="CraftPainkillers" displayKey="CraftPainkillers" tooltipKey="CraftPainkillersDesc" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/>
+                <Switch name="CraftParts" displayKey="CraftParts" tooltipKey="CraftPartsDesc" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/>
+                <Switch name="CraftSolars" displayKey="CraftSolars" tooltipKey="CraftSolarsDesc" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/>
+                <Switch name="CraftVitamins" displayKey="CraftVitamins" tooltipKey="CraftVitaminsDesc" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/>
+                <Switch name="SmeltCoal" displayKey="SmeltCoal" tooltipKey="SmeltCoalDesc" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/>
+                <Switch name="SmeltSnow" displayKey="SmeltSnow" tooltipKey="SmeltSnowDesc" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/>
+                <Switch name="NoLegendaryT0" displayKey="NoLegendaryT0" tooltipKey="NoLegendaryT0Desc" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/>
             </Category>
         </Tab>
         <!-- To implement later

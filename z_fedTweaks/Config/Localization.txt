@@ -1,61 +1,59 @@
 ﻿Key,english,german
 
-modBikeSpeedBoost,Bicycle Speed Boost,Fahrrad Geschwindigkeitsboost
-BikeBoostDesc, "Increases bicycle speed.", "Erhöht die Geschwindigkeit des Fahrrads."
+BreakfastMRE,"Breakfast MRE","Frühstück MRE"
+LunchMRE,"Lunch MRE","Mittagessen MRE"
+DinnerMRE,"Dinner MRE","Abendessen MRE"
+StuffedMRE,"Stuffed MRE","Vollgestopfte MRE"
+PastaMRE,"Pasta MRE","Nudel MRE"
+DessertMRE,"Dessert MRE","Nachtisch MRE"
+TacticalMRE,"Tactical MRE","Taktische MRE"
+VeganMRE,"Vegan MRE","Vegane MRE"
+MREDesc, "Meals Ready to Eat (MRE) are pre-portioned packets of food, drinks and other daily requirements. Simply heat and stir.", "Meals Ready to Eat (Essenspakete) sind vorportionierte Pakete mit Lebensmitteln, Getränken und anderem täglichen Bedarf. Einfach erhitzen und umrühren."
 
-cmtRetroFridge,Retro Fridge,Retro-Kühlschrank
-Computer,Bonazon Computer,Bonazon Computer
-Wood Burning Stove,Wood Burning Stove,Holzofen
-Oven,Cooking Oven,Kochofen
-Cooler,Drinks Cooler,Getränke-Kühler
-Microwave,Functional Microwave,Mikrowelle
-Fridge,Steel Fridge,Edelstahl-Kühlschrank
-Hydroponic,Hydroponic Cultivation,Hydroponische Zucht
-cntCompactWaterFilter,Compact Water Filter,Kompakter Wasserfilter
-DBTableSaw,Table Saw,Tischsäge
-DBGearShelves,Gear Shelves,Ausrüstungsregale
-DBAmmoStorage,Ammo Storage,Munitionslager
-DBCoffeeMaker,Coffee Maker,Kaffeemaschine
-DBCommercialCoffeeMaker,Commercial Coffee Maker,Kommerzielle Kaffeemaschine
+Tweaks,"Tweaks","Optimierungen"
+Gameplay,"Gameplay","Spielverlauf"
 
-mistaFridgeDesc, "A place to store food and drink.", "Ein Platz zum lagern von Essen und Trinken."
-mistaFridge02Desc, "A stainless steel fridge with plenty of room to store food.", "Ein Edelstahlkühlschrank mit einer menge Stauraum für Fressalien."
-BingbongDesc, "Order goods off of Bongazon with Duke coins.", "Bestelle tolle Sachen bei Bonazon mit Duke-Jetons."
-SodaDesc, "A compact water filter that will purify water.", "Ein kompakter Wasserfilter für enge Lagerräume."
-WoodBurningStoveDesc, "Will cook your food and warm your home.", "Erwärmt das Essen und die Behausung."
-OvenDesc, "Cooks meals.", "Kocht essen."
-TBsawDesc, "Efficiently create wood based traps and items.", "Erstellt effizienter Holzfallen und Gegenstände."
-MCwaveDesc, "Heats up food.", "Heizt essen auf."
-CoolaDesc, "A cool place to store your drinks.", "Ein kühler Platz um Getränke zu lagern."
-AmmoDesc, "A place to hold lots of ammo.", "Ein Lager für eine Menge an Munition."
-CanthDesc, "Gear racks.", "Ausrüstungsregale, für den Kistenmuffel."
-HydroDesc, "Harvest seeds for growing.", "Züchtet Planzensamen zum anpflanzen."
-CoffDesc, "Brews your coffee.", "Braut köstlichen Kaffee."
-CommDesc, "Also brews coffee.", "Braut auch Kaffee, nur lauter und teurer."
-ToastDesc, "Makes toast.", "Macht Toast und Brot."
-BookCasexDesc, "Store your books here.", "Ein Hort für Bücher."
+SetBasicChallengeSP,"Basics Challenge SP","Einsteiger Challenge SP"
+SetBasicChallengeSPDesc,"Sets the Skillpoints of the Basics Challenge to the shown Value. (Default is 4)","Setzt die Skillpunkte für die Einsteiger Challenge auf den angegebenen Wert. (Standard ist 4)"
+OptimizedStacks,"Optimized Stacks","Angepasste Stackgrößen"
+OptimizedStacksDesc,"Sets the Item Stacks to more optimized Amounts without beeing too Overpowered.","Setzt die Itemstapel auf mehr optimiertere Werte, ohne allzu overpowered zu sein."
+TradersNoTP,"Traders No TP","Händler kein TP"
+TradersNoTPDesc,"Traders don't Teleport Players out of their protected boundaries anymore.","Händler teleportieren Spieler nicht mehr aus ihren geschützten Bereichen."
+TradersAlwaysOpen,"Traders Always Open","Händler immer offen"
+TradersAlwaysOpenDesc,"Traders are always open, even on a Blood Moon!","Händler haben imme rgeöffnet, selbst bei einem Blutmond!"
+TrapDurability,"Trap Durability","Fallenhaltbarkeit"
+TrapDurabilityDesc,"Multiplies the durability of the four defensive Traps with the shown Value.","Multipliziert die Haltbarkeit der defensiven Fallen mit dem angegebenen Wert."
+FastCrops,"Fast Crops","Schnelles Pflanzenwachstum"
+FastCropsDesc,"Sets the time to grow crops to 5 minutes. (Default is 63)","Setzt die Wachstumszeit für Pflanzen auf 5 Minuten. (Standard sind es 63)"
+FastTrees,"Fast Trees","Schnelles Baumwachstum"
+FastTreesDesc,"Sets the time to grow trees to 5 minutes. (Default is 63)","Setzt die Wachstumszeit für Bäume auf 5 Minuten. (Standard sind es 63)"
+MoreHoney,"More Honey","Mehr Honig"
+MoreHoneyDesc,"Sets the chance for Honey from Stumps to 50% and Trees (with Perk) to 25%. (Default is 20% and 2%","Setzt die Chance für Honig von Baumstümpfen auf 50% und mit dem Perk für Bäume auf 25%. (Standard sind es 20% und 2%)"
+MoreLoot,"More Loot Bags","Mehr Lootsäcke"
+MoreLootDesc,"Increases the chance to get a Loot Bag.","Erhöht die Chance einen Lootsack zu bekommen."
+LongerLoot,"Longer Loot Timer","Längere Loot-Zeit"
+LongerLootDesc,"Multiplies the Despawn Timer from Loot Bag with the shown amount. (Default is 20 Minutes)","Multipliziert den Despawn-Timer von Lootsäcken mit dem angegebenen Wert. (Standard sind 20 Minuten)"
 
-BeeHive,"[FFFF00]Empty BeeHive","[FFFF00]Leerer Bienenstock"
-BeeHiveDesc, "Place this to start your hive. Once planted, wait until it changes from Brown to Green and is ready to harvest.", "Platzieren um einen Bienenstock zu starten. Nach dem setzen warten bis die Farbe von Braun nach Grün gewechselt und zur Ernte bereit ist."
-BeeHiveFull,[00FF00]Germinated BeeHive,[00FF00]Bestäubter Bienenstock
-BeeHiveFullDesc, [00FF00]Germinated BeeHive [FFFFFF]- [FFFF00]Left-Click to Harvest, [00FF00]Bestäubter Bienenstock [FFFFFF]- [FFFF00]Links-Klick zum sammeln
+Crafting,"Crafting","Herstellung"
+MoreCrafts,"New Crafting Options","Neue Bauoptionen"
 
-chickencage1,"[FFFF00]Chicken Cage","[FFFF00]Hühnerkäfig",
-chickencage1Desc,"Place this down and wait until it prompts you to harvest. Upon harvest, you get feathers and eggs!", "Plazieren und warten bis ein unsichtbares Huhn beim nicht hinschauen genistet hat. Erfolgreiches Sammeln gibt Eier und Federn", 
-chickencageharvested,[00FF00]Chicken Eggs - Ready to harvest!,[00FF00]Ein volles Nest - Bereit zum Sammeln!
-chickencageharvestedDesc, [00FF00]Chicken Cage [FFFFFF]- [FFFF00]Left-Click to Harvest,[00FF00]Hühnerkäfig [FFFFFF]- [FFFF00]Links-Klick zum sammeln
-seedsT2-6,[FFFF00]Tier 2: Chicken cage,[FFFF00]Stufe 2: Hühnerkäfig
-
-Bacon N Eggs MRE,Bacon N Eggs MRE,Speck mit Eiern MRE
-Baked Potato MRE,Baked Potato MRE,Gepackene Kartoffeln MRE
-Meat Stew MRE,Meat Stew MRE,Wildbreteintopf MRE
-Overloaded MRE,Overloaded MRE,Überladene MRE
-Spaghetti MRE,Spaghetti MRE,Spaghetti MRE
-Dessert MRE,Dessert MRE,Nachtisch MRE
-Tactical MRE,Tactical MRE,Taktische MRE
-Vegan MRE,Vegan MRE,Vegane MRE
-MREDesc, "Meals Ready to Eat (MRE) are pre-portioned packets of food, drinks and other daily requirements. Simply heat and stir.", "Meals Ready to Eat (Fertiggerichte) sind vorportionierte Pakete mit Lebensmitteln, Getränken und anderem täglichen Bedarf. Einfach erhitzen und umrühren."
-
-workstationsT1-DewGatherer,"Tier 1: Gatherer[-] - A basic dew collector that gathers water from the environment.","Stufe 1: Sammler[-] - Ein einfacher Tausammler, der Wasser aus der Umgebung auffängt."
-workstationsT2-DewTarp,"Tier 2: Tarp[-] - A tarp that increases water collection efficiency.","Stufe 2: Plane[-] - Eine einfache Plane, die die Effizienz der Wasseraufnahme erhöht."
-workstationsT3-DewFilter,"Tier 3: Water Filter[-] - A filter that purifies collected water, making it safe to drink.","Stufe 3: Wasserfilter[-] - Ein Filter, der das gesammelte Wasser reinigt, so dass es sicher getrunken werden kann."
+CraftAcid,"Battery to Acid.","Batterie zu Säure"
+CraftAcidDesc,"Craft Acid at a Workbench.","Säure an einer Werkbank herstellen."
+CraftLegendary,"Legendary Parts","Legendäre Teile"
+CraftLegendaryDesc,"Craft Legendary Parts.","Legendäre Teile herstellen."
+CraftMREs,"Meals Ready to Eat","Essenspakete"
+CraftMREsDesc,"Cook diverse MREs for convenience.","Unterschiedliche MREs für den Überlebenskomfort kochen."
+CraftPainkillers,"Painkillers","Schmerzmittel"
+CraftPainkillersDesc,"Craft Painkillers.","Schmerzmittel herstellen."
+CraftParts,"Equipment Parts","Ausrüstungsteile"
+CraftPartsDesc,"Craft alle the Parts for Armor, Tools and Weapons.","Alle Teile für Rüstungen, Waffen und Werkzeuge herstellen."
+CraftSolars,"Solar Banks & Cells","Solar Panele und Zellen"
+CraftSolarsDesc,"Craft Solar Banks and Cells.","Solar Panele und Zellen herstellen."
+CraftVitamins,"Vitamins","Vitamine"
+CraftVitaminsDesc,"Craft Vitamins.","Vitamine herstellen."
+SmeltCoal,"Wood to Coal","Holz zu Kohle"
+SmeltCoalDesc,"Char some Wood to make Coal.","Holz zu Kohle glimmen lassen."
+SmeltSnow,"Snow to Water","Schnee zu Wasser"
+SmeltSnowDesc,"Smelt Snow to Water.","Schnee zu Wasser schmelzen."
+NoLegendaryT0,"Tier 0 not Legendary","Stufe 0 nicht Legendär"
+NoLegendaryT0Desc,"Maximum Rank Tier 0 Equipment doesn't need Legendary Parts.","Maximaler Rang Stufe 0 Ausrüstung benötigt keine Legendären Teile."

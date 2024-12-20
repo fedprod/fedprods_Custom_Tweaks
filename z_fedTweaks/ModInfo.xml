@@ -5,18 +5,29 @@
     <Description value="A customizable Tweak Mod&#13;&#10;
         All Features are either Customizable or Toggleable per Gears:&#13;&#10;
         Customizable:&#13;&#10;
-        - Barbed Wire, Iron and Wood Trap Durability&#13;&#10;
-        - Loot Bag chance and despawn timers&#13;&#10;
+        - Increased Trap Durability&#13;&#10;
+        - Loot Bag despawn time&#13;&#10;
         - Skill Points when finishing the Basic Challenge&#13;&#10;
-        - &#13;&#10;
-        - Toggleable:&#13;&#10;
+        &#13;&#10;
+        Toggleable:&#13;&#10;
+        - Craftable Meals Ready to Eat&#13;&#10;
+        - Faster Tree and Crop Growth Time&#13;&#10;
+        - Higher Loot Bag chance&#13;&#10;
         - More Craftable Vanilla Items&#13;&#10;
+        - More Honey drop chance&#13;&#10;
         - No Legendary Parts for Tier 0 Equipment&#13;&#10;
         - Optimized Item Stack Amounts&#13;&#10;
         - Traders never close and no Boundary Teleport&#13;&#10;
-        - Tree Growth and Honey drop chance&#13;&#10;
-        - &#13;&#10;"/>
+        &#13;&#10;"/>
     <Author value="fedprod"/>
-    <Version value="1.1.1.1"/>
+    <Version value="1.1.2.0"/>
     <Website value="https://github.com/fedprod/fedprods_Custom_Tweaks"/>
 </xml>
+        - Barbed Wire, Iron and Wood Trap Durability
+        - Loot Bag despawn timers
+        - Skill Points when finishing the Basic Challenge
+        - 
+        - Toggleable:
+        - Craft MREs
+        - More Craftable Vanilla Items
+        - Higher Honey drop chance

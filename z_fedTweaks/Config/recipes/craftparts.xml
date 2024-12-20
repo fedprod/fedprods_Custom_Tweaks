@@ -77,10 +77,17 @@
                     <ingredient name="resourceDuctTape" count="8"/>
                     <ingredient name="resourceMechanicalParts" count="15"/>
                 </recipe>
+                <recipe name="gunBowT1WoodenBowParts" count="2" craft_time="20" craft_area="workbench" tags="workbenchCrafting">
+                    <ingredient name="resourceForgedSteel" count="18"/>
+                    <ingredient name="resourceDuctTape" count="8"/>
+                    <ingredient name="resourceMechanicalParts" count="15"/>
+                </recipe>
                 <recipe name="resourceSpring" count="1" craft_time="5" craft_area="workbench" tags="workbenchCrafting">
                     <ingredient name="resourceForgedIron" count="3"/>
                     <ingredient name="resourceOil" count="1"/>
                 </recipe>
+            </append>
+            <append xpath="/recipes">
                 <recipe name="resourceMechanicalParts" count="2" craft_time="20" craft_area="workbench" tags="workbenchCrafting">
                     <ingredient name="resourceForgedIron" count="2"/>
                     <ingredient name="resourceOil" count="1"/>

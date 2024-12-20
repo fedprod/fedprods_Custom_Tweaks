@@ -1,4 +1,5 @@
 <configs>
+    <include filename="items/craftmres.xml"/>
     <include filename="items/craftparts.xml"/>
     <include filename="items/craftsolars.xml"/>
     <include filename="items/craftvitamins.xml"/>
