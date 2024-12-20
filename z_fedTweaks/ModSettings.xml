@@ -3,11 +3,11 @@
     <Global>
         <Tab name="Tweaks" displayKey="" tooltipKey="">
             <Category name="Gameplay" displayKey="" tooltipKey="">
-                <Selector name="SetBasicChallengeSP" displayKey="" tooltipKey="" value="Default" defaultValue="Default">
+                <Selector name="SetBasicChallengeSP" displayKey="SetBasicChallengeSP" tooltipKey="SetBasicChallengeSPDesc" value="Default" defaultValue="Default">
                     <Property type="arrayValues" allowedValues="Default,14,21,28"/>
                     <!-- Default is 4 -->
                 </Selector>
-                <Switch name="OptimizedStacks" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/>
+                <Switch name="OptimizedStacks" displayKey="OptimizedStacks" tooltipKey="OptimizedStacksDesc" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/>
                 <!-- Changed Stack Sizes:
                         50000:  Coin, Molten
                         25000:  Cash

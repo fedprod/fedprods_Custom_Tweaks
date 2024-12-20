@@ -20,7 +20,7 @@ OptimizedStacksDesc,"Sets the Item Stacks to more optimized Amounts without beei
 TradersNoTP,"Traders No TP","Händler kein TP"
 TradersNoTPDesc,"Traders don't Teleport Players out of their protected boundaries anymore.","Händler teleportieren Spieler nicht mehr aus ihren geschützten Bereichen."
 TradersAlwaysOpen,"Traders Always Open","Händler immer offen"
-TradersAlwaysOpenDesc,"Traders are always open, even on a Blood Moon!","Händler haben imme rgeöffnet, selbst bei einem Blutmond!"
+TradersAlwaysOpenDesc,"Traders are always open, even on a Blood Moon!","Händler haben immer geöffnet, selbst bei einem Blutmond!"
 TrapDurability,"Trap Durability","Fallenhaltbarkeit"
 TrapDurabilityDesc,"Multiplies the durability of the four defensive Traps with the shown Value.","Multipliziert die Haltbarkeit der defensiven Fallen mit dem angegebenen Wert."
 FastCrops,"Fast Crops","Schnelles Pflanzenwachstum"
