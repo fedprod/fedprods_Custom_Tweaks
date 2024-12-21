@@ -1,15 +1,16 @@
 ﻿<morehoney>
-    <conditional>
-        <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Tweaks.Gameplay.MoreHoney') == 'On'">
-            <append xpath="/blocks/block[@name='treeMaster']">
-                <drop event="Destroy" name="foodHoney" prob=".25" count="1" tag="WasteTreasuresHoneyHarvest"/>
-            </append>
-            <append xpath="/blocks/block[@name='treeStump']">
-                <drop event="Destroy" name="foodHoney" prob=".50" count="1"/>
-            </append>
-            <append xpath="/blocks/block[@name='treeStumpPOI']">
-                <drop event="Destroy" name="foodHoney" prob=".50" count="1"/>
-            </append>
-        </if>
-    </conditional>
+  <conditional>
+    <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Tweaks.Gameplay.MoreHoney') == 'On'">
+      <append xpath="blocks/block[@name='treeMaster']">
+        <drop event="Destroy" name="foodHoney" prob=".25" count="1" tag="WasteTreasuresHoneyHarvest"/>
+      </append>
+      <append xpath="blocks/block[@name='treeStump']">
+        <drop event="Destroy" name="foodHoney" prob=".50" count="1"/>
+      </append>
+      <append xpath="blocks/block[@name='treeStumpPOI']">
+        <drop event="Destroy" name="foodHoney" prob=".50" count="1"/>
+      </append>
+    </if>
+    <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Tweaks.Gameplay.MoreHoney') == 'Off'"/>
+  </conditional>
 </morehoney>

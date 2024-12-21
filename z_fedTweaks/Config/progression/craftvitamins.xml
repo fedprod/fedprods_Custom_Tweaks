@@ -1,8 +1,9 @@
 <craftvitamins>
-    <conditional>
-        <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftVitamins') == 'On'">
-            <set xpath="/progression/crafting_skills/crafting_skill[@name='craftingMedical']/display_entry[1]/@icon">medicalFirstAidBandage,drugFortBites,drugVitamins</set>
-            <set xpath="/progression/crafting_skills/crafting_skill[@name='craftingMedical']/display_entry[1]/unlock_entry[1]/@item">medicalFirstAidBandage,drugVitamins</set>
-        </if>
-    </conditional>
+  <conditional>
+    <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftVitamins') == 'On'">
+      <set xpath="progression/crafting_skills/crafting_skill[@name='craftingMedical']/display_entry[1]/@icon">medicalFirstAidBandage,drugFortBites,drugVitamins</set>
+      <set xpath="progression/crafting_skills/crafting_skill[@name='craftingMedical']/display_entry[1]/unlock_entry[1]/@item">medicalFirstAidBandage,drugVitamins</set>
+    </if>
+    <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftVitamins') == 'Off'"/>
+  </conditional>
 </craftvitamins>

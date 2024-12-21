@@ -3,11 +3,11 @@
     <Global>
         <Tab name="Tweaks" displayKey="" tooltipKey="">
             <Category name="Gameplay" displayKey="" tooltipKey="">
-                <Selector name="SetBasicChallengeSP" displayKey="SetBasicChallengeSP" tooltipKey="SetBasicChallengeSPDesc" value="Default" defaultValue="Default">
-                    <Property type="arrayValues" allowedValues="Default,14,21,28"/>
+                <Selector name="SetBasicChallengeSP" displayKey="SetBasicChallengeSP" tooltipKey="SetBasicChallengeSPDesc" value="4" defaultValue="4">
+                    <Property type="arrayValues" allowedValues="4,7,14,21,28"/>
                     <!-- Default is 4 -->
                 </Selector>
-                <Switch name="OptimizedStacks" displayKey="OptimizedStacks" tooltipKey="OptimizedStacksDesc" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/>
+                <Switch name="OptimalStacks" displayKey="OptimalStacks" tooltipKey="OptimalStacksDesc" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/>
                 <!-- Changed Stack Sizes:
                         50000:  Coin, Molten
                         25000:  Cash
@@ -26,8 +26,8 @@
                 -->
                 <Switch name="TradersNoTP" displayKey="TradersNoTP" tooltipKey="TradersNoTPDesc" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/>
                 <Switch name="TradersAlwaysOpen" displayKey="TradersAlwaysOpen" tooltipKey="TradersAlwaysOpenDesc" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/>
-                <Selector name="TrapDurability" displayKey="TrapDurability" tooltipKey="TrapDurabilityDesc" value="Default" defaultValue="Default">
-                    <Property type="arrayValues" allowedValues="Default,x3,x5,x10"/>
+                <Selector name="TrapDurability" displayKey="TrapDurability" tooltipKey="TrapDurabilityDesc" value="100&#37;" defaultValue="100&#37;">
+                    <Property type="arrayValues" allowedValues="100&#37;,300&#37;,500&#37;,1000&#37;"/>
                     <!-- Default is Barbed Wire 50, Wood 100, Iron 200, Electric Fence 200 (per stage where applicable), multiplier -->
                 </Selector>
                 <Switch name="FastCrops" displayKey="FastCrops" tooltipKey="FastCropsDesc" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/>
@@ -37,8 +37,8 @@
                 <Switch name="MoreHoney" displayKey="MoreHoney" tooltipKey="MoreHoneyDesc" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/>
                 <!-- Default is 2% Chance while felling a Tree with the Perk, and 20% from Stumps -->
                 <Switch name="MoreLoot" displayKey="MoreLoot" tooltipKey="MoreLootDesc" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/>
-                <Selector name="LongerLoot" displayKey="LongerLoot" tooltipKey="LongerLootDesc" value="Default" defaultValue="Default">
-                    <Property type="arrayValues" allowedValues="Default,x2,x3"/>
+                <Selector name="LongerLoot" displayKey="LongerLoot" tooltipKey="LongerLootDesc" value="20 minutes" defaultValue="20 minutes">
+                    <Property type="arrayValues" allowedValues="20 minutes,40 minutes,60 minutes"/>
                     <!-- Default is 1200 seconds (20 minutes), multiplier -->
                 </Selector>
                 <!-- <Switch name="PickupLoot" displayKey="" tooltipKey="" value="Off" defaultValue="Off" leftValue="Off" rightValue="On"/> -->

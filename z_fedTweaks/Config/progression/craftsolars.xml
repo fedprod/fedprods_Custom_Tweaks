@@ -1,9 +1,10 @@
 <craftsolars>
-    <conditional>
-        <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftSolars') == 'On'">
-            <set xpath="/progression/crafting_skills/crafting_skill[@name='craftingElectrician']/display_entry[4]/unlock_entry/@item">carBattery,solarbank,solarCell</set>
-            <set xpath="/progression/crafting_skills[1]/crafting_skill[@name='craftingElectrician']/effect_group/passive_effect[4]/@tags">carBattery,solarbank,solarCell</set>
-            <set xpath="/progression/crafting_skills[1]/crafting_skill[@name='craftingElectrician']/effect_group/passive_effect[5]/@tags">carBattery,solarbank,solarCell</set>
-        </if>
-    </conditional>
+  <conditional>
+    <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftSolars') == 'On'">
+      <set xpath="progression/crafting_skills/crafting_skill[@name='craftingElectrician']/display_entry[4]/unlock_entry/@item">carBattery,solarbank,solarCell</set>
+      <set xpath="progression/crafting_skills[1]/crafting_skill[@name='craftingElectrician']/effect_group/passive_effect[4]/@tags">carBattery,solarbank,solarCell</set>
+      <set xpath="progression/crafting_skills[1]/crafting_skill[@name='craftingElectrician']/effect_group/passive_effect[5]/@tags">carBattery,solarbank,solarCell</set>
+    </if>
+    <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftSolars') == 'Off'"/>
+  </conditional>
 </craftsolars>

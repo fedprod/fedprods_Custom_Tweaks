@@ -1,12 +1,13 @@
 <longerloot>
-    <conditional>
-        <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Tweaks.Gameplay.LongerLoot') == 'x2'">
-            <set xpath="/entity_classes/entity_class[@name='DroppedLootContainer']/property[@name='TimeStayAfterDeath']/@value">2400</set>
-            <set xpath="/entity_classes/entity_class[starts-with(@name, 'EntityLootContainer')]/property[@name='TimeStayAfterDeath']/@value">2400</set>
-        </if>
-        <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Tweaks.Gameplay.LongerLoot') == 'x3'">
-            <set xpath="/entity_classes/entity_class[@name='DroppedLootContainer']/property[@name='TimeStayAfterDeath']/@value">3600</set>
-            <set xpath="/entity_classes/entity_class[starts-with(@name, 'EntityLootContainer')]/property[@name='TimeStayAfterDeath']/@value">3600</set>
-        </if>
-    </conditional>
+  <conditional>
+    <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Tweaks.Gameplay.LongerLoot') == '60 minutes'">
+      <set xpath="entity_classes/entity_class[@name='DroppedLootContainer']/property[@name='TimeStayAfterDeath']/@value">3600</set>
+      <set xpath="entity_classes/entity_class[starts-with(@name, 'EntityLootContainer')]/property[@name='TimeStayAfterDeath']/@value">3600</set>
+    </if>
+    <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Tweaks.Gameplay.LongerLoot') == '40 minutes'">
+      <set xpath="entity_classes/entity_class[@name='DroppedLootContainer']/property[@name='TimeStayAfterDeath']/@value">2400</set>
+      <set xpath="entity_classes/entity_class[starts-with(@name, 'EntityLootContainer')]/property[@name='TimeStayAfterDeath']/@value">2400</set>
+    </if>
+    <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Tweaks.Gameplay.LongerLoot') == '20 minutes'"/>
+  </conditional>
 </longerloot>

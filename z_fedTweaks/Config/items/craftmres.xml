@@ -1,236 +1,237 @@
 <craftmres>
-    <conditional>
-        <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftMREs') == 'On'">
-            <append xpath="/items">
-                <item name="BreakfastMRE">
-                    <property name="DescriptionKey" value="MREDesc"/>
-                    <property name="Tags" value="food"/>
-                    <property name="HoldType" value="31"/>
-                    <property name="DisplayType" value="foodWater"/>
-                    <property name="CustomIcon" value="questWhiteRiverSupplies"/>
-                    <property name="CustomIconTint" value="139,69,19"/>
-                    <!-- Brown -->
-                    <property name="Meshfile" value="#Blocks/Containers/woodenChest.prefab"/>
-                    <property name="DropMeshfile" value="#Blocks/Containers/sack_dropped.prefab"/>
-                    <property name="Material" value="Morganic"/>
-                    <property name="Stacknumber" value="25"/>
-                    <!-- STK food -->
-                    <property name="EconomicValue" value="500"/>
-                    <property class="Action0">
-                        <property name="Class" value="Eat"/>
-                        <property name="Delay" value="1.0"/>
-                        <property name="Use_time" value="..."/>
-                        <property name="Sound_start" value="player_eating"/>
-                    </property>
-                    <property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-                    <effect_group tiered="false" name="Food Tier 1">
-                        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="30"/>
-                        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="80"/>
-                        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="40"/>
-                        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="25"/>
-                        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
-                    </effect_group>
-                </item>
-                <item name="LunchMRE">
-                    <property name="DescriptionKey" value="MREDesc"/>
-                    <property name="Tags" value="food"/>
-                    <property name="HoldType" value="31"/>
-                    <property name="DisplayType" value="foodWater"/>
-                    <property name="CustomIcon" value="questWhiteRiverSupplies"/>
-                    <property name="CustomIconTint" value="255,255,0"/>
-                    <!-- Yellow -->
-                    <property name="Meshfile" value="#Blocks/Containers/woodenChest.prefab"/>
-                    <property name="DropMeshfile" value="#Blocks/Containers/sack_dropped.prefab"/>
-                    <property name="Material" value="Morganic"/>
-                    <property name="Stacknumber" value="25"/>
-                    <!-- STK food -->
-                    <property name="EconomicValue" value="500"/>
-                    <property class="Action0">
-                        <property name="Class" value="Eat"/>
-                        <property name="Delay" value="2.0"/>
-                        <property name="Use_time" value="..."/>
-                        <property name="Sound_start" value="player_eating"/>
-                    </property>
-                    <property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-                    <effect_group tiered="false" name="Food Tier 1">
-                        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="50"/>
-                        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="100"/>
-                        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="50"/>
-                        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="30"/>
-                        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
-                    </effect_group>
-                </item>
-                <item name="DinnerMRE">
-                    <property name="DescriptionKey" value="MREDesc"/>
-                    <property name="Tags" value="food"/>
-                    <property name="HoldType" value="31"/>
-                    <property name="DisplayType" value="foodWater"/>
-                    <property name="CustomIcon" value="questWhiteRiverSupplies"/>
-                    <property name="CustomIconTint" value="0,128,0"/>
-                    <!-- Green -->
-                    <property name="Meshfile" value="#Blocks/Containers/woodenChest.prefab"/>
-                    <property name="DropMeshfile" value="#Blocks/Containers/sack_dropped.prefab"/>
-                    <property name="Material" value="Morganic"/>
-                    <property name="Stacknumber" value="25"/>
-                    <!-- STK food -->
-                    <property name="EconomicValue" value="850"/>
-                    <property class="Action0">
-                        <property name="Class" value="Eat"/>
-                        <property name="Delay" value="3.0"/>
-                        <property name="Use_time" value="..."/>
-                        <property name="Sound_start" value="player_eating"/>
-                    </property>
-                    <property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-                    <effect_group tiered="false" name="Food Tier 1">
-                        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="80"/>
-                        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="120"/>
-                        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="60"/>
-                        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="35"/>
-                        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
-                    </effect_group>
-                </item>
-                <item name="StuffedMRE">
-                    <property name="DescriptionKey" value="MREDesc"/>
-                    <property name="Tags" value="food"/>
-                    <property name="HoldType" value="31"/>
-                    <property name="DisplayType" value="foodWater"/>
-                    <property name="CustomIcon" value="questWhiteRiverSupplies"/>
-                    <property name="CustomIconTint" value="255,165,0"/>
-                    <!-- Orange -->
-                    <property name="Meshfile" value="#Blocks/Containers/woodenChest.prefab"/>
-                    <property name="DropMeshfile" value="#Blocks/Containers/sack_dropped.prefab"/>
-                    <property name="Material" value="Morganic"/>
-                    <property name="Stacknumber" value="25"/>
-                    <!-- STK food -->
-                    <property name="EconomicValue" value="1000"/>
-                    <property class="Action0">
-                        <property name="Class" value="Eat"/>
-                        <property name="Delay" value="5.0"/>
-                        <property name="Use_time" value="..."/>
-                        <property name="Sound_start" value="player_eating"/>
-                    </property>
-                    <property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-                    <effect_group tiered="false" name="Food Tier 1">
-                        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="100"/>
-                        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="150"/>
-                        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="80"/>
-                        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="40"/>
-                        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
-                    </effect_group>
-                </item>
-                <item name="PastaMRE">
-                    <property name="DescriptionKey" value="MREDesc"/>
-                    <property name="Tags" value="food"/>
-                    <property name="HoldType" value="31"/>
-                    <property name="DisplayType" value="foodWater"/>
-                    <property name="CustomIcon" value="questWhiteRiverSupplies"/>
-                    <property name="CustomIconTint" value="255,0,0"/>
-                    <!-- Red -->
-                    <property name="Meshfile" value="#Blocks/Containers/woodenChest.prefab"/>
-                    <property name="DropMeshfile" value="#Blocks/Containers/sack_dropped.prefab"/>
-                    <property name="Material" value="Morganic"/>
-                    <property name="Stacknumber" value="25"/>
-                    <property name="EconomicValue" value="1200"/>
-                    <property class="Action0">
-                        <property name="Class" value="Eat"/>
-                        <property name="Delay" value="3.0"/>
-                        <property name="Use_time" value="..."/>
-                        <property name="Sound_start" value="player_eating"/>
-                    </property>
-                    <property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-                    <effect_group tiered="false" name="Food Tier 1">
-                        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="100"/>
-                        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="150"/>
-                        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="70"/>
-                        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="40"/>
-                        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
-                    </effect_group>
-                </item>
-                <item name="DessertMRE">
-                    <property name="DescriptionKey" value="MREDesc"/>
-                    <property name="Tags" value="food"/>
-                    <property name="HoldType" value="31"/>
-                    <property name="DisplayType" value="foodWater"/>
-                    <property name="CustomIcon" value="questWhiteRiverSupplies"/>
-                    <property name="CustomIconTint" value="255,20,147"/>
-                    <!-- Pink -->
-                    <property name="Meshfile" value="#Blocks/Containers/woodenChest.prefab"/>
-                    <property name="DropMeshfile" value="#Blocks/Containers/sack_dropped.prefab"/>
-                    <property name="Material" value="Morganic"/>
-                    <property name="Stacknumber" value="25"/>
-                    <property name="EconomicValue" value="900"/>
-                    <property class="Action0">
-                        <property name="Class" value="Eat"/>
-                        <property name="Delay" value="2.0"/>
-                        <property name="Use_time" value="..."/>
-                        <property name="Sound_start" value="player_eating"/>
-                    </property>
-                    <property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-                    <effect_group tiered="false" name="Food Tier 1">
-                        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="50"/>
-                        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="100"/>
-                        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="50"/>
-                        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="30"/>
-                        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
-                    </effect_group>
-                </item>
-                <item name="TacticalMRE">
-                    <property name="DescriptionKey" value="MREDesc"/>
-                    <property name="Tags" value="food"/>
-                    <property name="HoldType" value="31"/>
-                    <property name="DisplayType" value="foodWater"/>
-                    <property name="CustomIcon" value="questWhiteRiverSupplies"/>
-                    <property name="CustomIconTint" value="0,0,255"/>
-                    <!-- Blue -->
-                    <property name="Meshfile" value="#Blocks/Containers/woodenChest.prefab"/>
-                    <property name="DropMeshfile" value="#Blocks/Containers/sack_dropped.prefab"/>
-                    <property name="Material" value="Morganic"/>
-                    <property name="Stacknumber" value="25"/>
-                    <property name="EconomicValue" value="1500"/>
-                    <property class="Action0">
-                        <property name="Class" value="Eat"/>
-                        <property name="Delay" value="3.0"/>
-                        <property name="Use_time" value="..."/>
-                        <property name="Sound_start" value="player_eating"/>
-                    </property>
-                    <property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-                    <effect_group tiered="false" name="Food Tier 1">
-                        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="120"/>
-                        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="180"/>
-                        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="100"/>
-                        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="50"/>
-                        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
-                    </effect_group>
-                </item>
-                <item name="VeganMRE">
-                    <property name="DescriptionKey" value="MREDesc"/>
-                    <property name="Tags" value="food"/>
-                    <property name="HoldType" value="31"/>
-                    <property name="DisplayType" value="foodWater"/>
-                    <property name="CustomIcon" value="questWhiteRiverSupplies"/>
-                    <property name="CustomIconTint" value="34,139,34"/>
-                    <!-- Forest Green -->
-                    <property name="Meshfile" value="#Blocks/Containers/woodenChest.prefab"/>
-                    <property name="DropMeshfile" value="#Blocks/Containers/sack_dropped.prefab"/>
-                    <property name="Material" value="Morganic"/>
-                    <property name="Stacknumber" value="25"/>
-                    <property name="EconomicValue" value="1100"/>
-                    <property class="Action0">
-                        <property name="Class" value="Eat"/>
-                        <property name="Delay" value="2.5"/>
-                        <property name="Use_time" value="..."/>
-                        <property name="Sound_start" value="player_eating"/>
-                    </property>
-                    <property name="Group" value="Food/Cooking,CFFood/Cooking"/>
-                    <effect_group tiered="false" name="Food Tier 1">
-                        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="70"/>
-                        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="130"/>
-                        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="60"/>
-                        <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="30"/>
-                        <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
-                    </effect_group>
-                </item>
-            </append>
-        </if>
-    </conditional>
+  <conditional>
+    <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftMREs') == 'On'">
+      <append xpath="/items">
+        <item name="BreakfastMRE">
+          <property name="DescriptionKey" value="MREDesc"/>
+          <property name="Tags" value="food"/>
+          <property name="HoldType" value="31"/>
+          <property name="DisplayType" value="foodWater"/>
+          <property name="CustomIcon" value="questWhiteRiverSupplies"/>
+          <property name="CustomIconTint" value="139,69,19"/>
+          <!-- Brown -->
+          <property name="Meshfile" value="#Blocks/Containers/woodenChest.prefab"/>
+          <property name="DropMeshfile" value="#Blocks/Containers/sack_dropped.prefab"/>
+          <property name="Material" value="Morganic"/>
+          <property name="Stacknumber" value="25"/>
+          <!-- STK food -->
+          <property name="EconomicValue" value="500"/>
+          <property class="Action0">
+            <property name="Class" value="Eat"/>
+            <property name="Delay" value="1.0"/>
+            <property name="Use_time" value="..."/>
+            <property name="Sound_start" value="player_eating"/>
+          </property>
+          <property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+          <effect_group tiered="false" name="Food Tier 1">
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="30"/>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="80"/>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="40"/>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="25"/>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+          </effect_group>
+        </item>
+        <item name="LunchMRE">
+          <property name="DescriptionKey" value="MREDesc"/>
+          <property name="Tags" value="food"/>
+          <property name="HoldType" value="31"/>
+          <property name="DisplayType" value="foodWater"/>
+          <property name="CustomIcon" value="questWhiteRiverSupplies"/>
+          <property name="CustomIconTint" value="255,255,0"/>
+          <!-- Yellow -->
+          <property name="Meshfile" value="#Blocks/Containers/woodenChest.prefab"/>
+          <property name="DropMeshfile" value="#Blocks/Containers/sack_dropped.prefab"/>
+          <property name="Material" value="Morganic"/>
+          <property name="Stacknumber" value="25"/>
+          <!-- STK food -->
+          <property name="EconomicValue" value="500"/>
+          <property class="Action0">
+            <property name="Class" value="Eat"/>
+            <property name="Delay" value="2.0"/>
+            <property name="Use_time" value="..."/>
+            <property name="Sound_start" value="player_eating"/>
+          </property>
+          <property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+          <effect_group tiered="false" name="Food Tier 1">
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="50"/>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="100"/>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="50"/>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="30"/>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+          </effect_group>
+        </item>
+        <item name="DinnerMRE">
+          <property name="DescriptionKey" value="MREDesc"/>
+          <property name="Tags" value="food"/>
+          <property name="HoldType" value="31"/>
+          <property name="DisplayType" value="foodWater"/>
+          <property name="CustomIcon" value="questWhiteRiverSupplies"/>
+          <property name="CustomIconTint" value="0,128,0"/>
+          <!-- Green -->
+          <property name="Meshfile" value="#Blocks/Containers/woodenChest.prefab"/>
+          <property name="DropMeshfile" value="#Blocks/Containers/sack_dropped.prefab"/>
+          <property name="Material" value="Morganic"/>
+          <property name="Stacknumber" value="25"/>
+          <!-- STK food -->
+          <property name="EconomicValue" value="850"/>
+          <property class="Action0">
+            <property name="Class" value="Eat"/>
+            <property name="Delay" value="3.0"/>
+            <property name="Use_time" value="..."/>
+            <property name="Sound_start" value="player_eating"/>
+          </property>
+          <property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+          <effect_group tiered="false" name="Food Tier 1">
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="80"/>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="120"/>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="60"/>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="35"/>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+          </effect_group>
+        </item>
+        <item name="StuffedMRE">
+          <property name="DescriptionKey" value="MREDesc"/>
+          <property name="Tags" value="food"/>
+          <property name="HoldType" value="31"/>
+          <property name="DisplayType" value="foodWater"/>
+          <property name="CustomIcon" value="questWhiteRiverSupplies"/>
+          <property name="CustomIconTint" value="255,165,0"/>
+          <!-- Orange -->
+          <property name="Meshfile" value="#Blocks/Containers/woodenChest.prefab"/>
+          <property name="DropMeshfile" value="#Blocks/Containers/sack_dropped.prefab"/>
+          <property name="Material" value="Morganic"/>
+          <property name="Stacknumber" value="25"/>
+          <!-- STK food -->
+          <property name="EconomicValue" value="1000"/>
+          <property class="Action0">
+            <property name="Class" value="Eat"/>
+            <property name="Delay" value="5.0"/>
+            <property name="Use_time" value="..."/>
+            <property name="Sound_start" value="player_eating"/>
+          </property>
+          <property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+          <effect_group tiered="false" name="Food Tier 1">
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="100"/>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="150"/>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="80"/>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="40"/>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+          </effect_group>
+        </item>
+        <item name="PastaMRE">
+          <property name="DescriptionKey" value="MREDesc"/>
+          <property name="Tags" value="food"/>
+          <property name="HoldType" value="31"/>
+          <property name="DisplayType" value="foodWater"/>
+          <property name="CustomIcon" value="questWhiteRiverSupplies"/>
+          <property name="CustomIconTint" value="255,0,0"/>
+          <!-- Red -->
+          <property name="Meshfile" value="#Blocks/Containers/woodenChest.prefab"/>
+          <property name="DropMeshfile" value="#Blocks/Containers/sack_dropped.prefab"/>
+          <property name="Material" value="Morganic"/>
+          <property name="Stacknumber" value="25"/>
+          <property name="EconomicValue" value="1200"/>
+          <property class="Action0">
+            <property name="Class" value="Eat"/>
+            <property name="Delay" value="3.0"/>
+            <property name="Use_time" value="..."/>
+            <property name="Sound_start" value="player_eating"/>
+          </property>
+          <property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+          <effect_group tiered="false" name="Food Tier 1">
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="100"/>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="150"/>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="70"/>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="40"/>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+          </effect_group>
+        </item>
+        <item name="DessertMRE">
+          <property name="DescriptionKey" value="MREDesc"/>
+          <property name="Tags" value="food"/>
+          <property name="HoldType" value="31"/>
+          <property name="DisplayType" value="foodWater"/>
+          <property name="CustomIcon" value="questWhiteRiverSupplies"/>
+          <property name="CustomIconTint" value="255,20,147"/>
+          <!-- Pink -->
+          <property name="Meshfile" value="#Blocks/Containers/woodenChest.prefab"/>
+          <property name="DropMeshfile" value="#Blocks/Containers/sack_dropped.prefab"/>
+          <property name="Material" value="Morganic"/>
+          <property name="Stacknumber" value="25"/>
+          <property name="EconomicValue" value="900"/>
+          <property class="Action0">
+            <property name="Class" value="Eat"/>
+            <property name="Delay" value="2.0"/>
+            <property name="Use_time" value="..."/>
+            <property name="Sound_start" value="player_eating"/>
+          </property>
+          <property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+          <effect_group tiered="false" name="Food Tier 1">
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="50"/>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="100"/>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="50"/>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="30"/>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+          </effect_group>
+        </item>
+        <item name="TacticalMRE">
+          <property name="DescriptionKey" value="MREDesc"/>
+          <property name="Tags" value="food"/>
+          <property name="HoldType" value="31"/>
+          <property name="DisplayType" value="foodWater"/>
+          <property name="CustomIcon" value="questWhiteRiverSupplies"/>
+          <property name="CustomIconTint" value="0,0,255"/>
+          <!-- Blue -->
+          <property name="Meshfile" value="#Blocks/Containers/woodenChest.prefab"/>
+          <property name="DropMeshfile" value="#Blocks/Containers/sack_dropped.prefab"/>
+          <property name="Material" value="Morganic"/>
+          <property name="Stacknumber" value="25"/>
+          <property name="EconomicValue" value="1500"/>
+          <property class="Action0">
+            <property name="Class" value="Eat"/>
+            <property name="Delay" value="3.0"/>
+            <property name="Use_time" value="..."/>
+            <property name="Sound_start" value="player_eating"/>
+          </property>
+          <property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+          <effect_group tiered="false" name="Food Tier 1">
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="120"/>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="180"/>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="100"/>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="50"/>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+          </effect_group>
+        </item>
+        <item name="VeganMRE">
+          <property name="DescriptionKey" value="MREDesc"/>
+          <property name="Tags" value="food"/>
+          <property name="HoldType" value="31"/>
+          <property name="DisplayType" value="foodWater"/>
+          <property name="CustomIcon" value="questWhiteRiverSupplies"/>
+          <property name="CustomIconTint" value="34,139,34"/>
+          <!-- Forest Green -->
+          <property name="Meshfile" value="#Blocks/Containers/woodenChest.prefab"/>
+          <property name="DropMeshfile" value="#Blocks/Containers/sack_dropped.prefab"/>
+          <property name="Material" value="Morganic"/>
+          <property name="Stacknumber" value="25"/>
+          <property name="EconomicValue" value="1100"/>
+          <property class="Action0">
+            <property name="Class" value="Eat"/>
+            <property name="Delay" value="2.5"/>
+            <property name="Use_time" value="..."/>
+            <property name="Sound_start" value="player_eating"/>
+          </property>
+          <property name="Group" value="Food/Cooking,CFFood/Cooking"/>
+          <effect_group tiered="false" name="Food Tier 1">
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="70"/>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="130"/>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="60"/>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="30"/>
+            <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables"/>
+          </effect_group>
+        </item>
+      </append>
+    </if>
+    <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftMREs') == 'Off'"/>
+  </conditional>
 </craftmres>

@@ -1,12 +1,12 @@
 <config>
-    <include filename="recipes/craftacid.xml"/>
-    <include filename="recipes/craftlegendary.xml"/>
-    <include filename="recipes/craftmres.xml"/>
-    <include filename="recipes/craftpainkillers.xml"/>
-    <include filename="recipes/craftparts.xml"/>
-    <include filename="recipes/craftsolars.xml"/>
-    <include filename="recipes/craftvitamins.xml"/>
-    <include filename="recipes/nolegendaryt0.xml"/>
-    <include filename="recipes/smeltcoal.xml"/>
-    <include filename="recipes/smeltsnow.xml"/>
+  <include filename="recipes/craftacid.xml"/>
+  <include filename="recipes/craftlegendary.xml"/>
+  <include filename="recipes/craftmres.xml"/>
+  <include filename="recipes/craftpainkillers.xml"/>
+  <include filename="recipes/craftparts.xml"/>
+  <include filename="recipes/craftsolars.xml"/>
+  <include filename="recipes/craftvitamins.xml"/>
+  <include filename="recipes/nolegendaryt0.xml"/>
+  <include filename="recipes/smeltcoal.xml"/>
+  <include filename="recipes/smeltsnow.xml"/>
 </config>

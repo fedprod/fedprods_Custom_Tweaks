@@ -1,8 +1,3 @@
 ﻿<configs>
-    <include filename="traders/notp_bob.xml"/>
-    <include filename="traders/notp_hugh.xml"/>
-    <include filename="traders/notp_jen.xml"/>
-    <include filename="traders/notp_joel.xml"/>
-    <include filename="traders/notp_rekt.xml"/>
-    <include filename="traders/opentraders.xml"/>
+  <include filename="traders/opentraders.xml"/>
 </configs>

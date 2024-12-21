@@ -1,0 +1,8 @@
+<smeltcoal>
+  <conditional>
+    <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.SmeltCoal') == 'On'">
+      <set xpath="items/item[@name='resourceCoal']/property[@name='Group']/@value">Resources,Chemicals,CFChemicals</set>
+    </if>
+    <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftVitamins') == 'Off'"/>
+  </conditional>
+</smeltcoal>

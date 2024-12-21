@@ -1,6 +1,7 @@
 ﻿<configs>
-    <include filename="blocks/fastcrops.xml"/>
-    <include filename="blocks/fasttrees.xml"/>
-    <include filename="blocks/morehoney.xml"/>
-    <include filename="blocks/trapdurability.xml"/>
+  <include filename="blocks/craftsolars.xml"/>
+  <include filename="blocks/fastcrops.xml"/>
+  <include filename="blocks/fasttrees.xml"/>
+  <include filename="blocks/morehoney.xml"/>
+  <include filename="blocks/trapdurability.xml"/>
 </configs>

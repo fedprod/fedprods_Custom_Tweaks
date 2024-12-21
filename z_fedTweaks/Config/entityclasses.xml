@@ -1,4 +1,4 @@
 <configs>
-    <include filename="entityclasses/longerloot.xml"/>
-    <include filename="entityclasses/moreloot.xml"/>
+  <include filename="entityclasses/longerloot.xml"/>
+  <include filename="entityclasses/moreloot.xml"/>
 </configs>

@@ -1,3 +1,3 @@
 ﻿<configs>
-    <include filename="gameevents/skillpoints.xml"/>
+  <include filename="gameevents/skillpoints.xml"/>
 </configs>

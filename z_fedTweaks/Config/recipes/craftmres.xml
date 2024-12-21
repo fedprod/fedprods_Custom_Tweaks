@@ -1,55 +1,56 @@
 <craftmres>
-    <conditional>
-        <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftMREs') == 'On'">
-            <append xpath="/recipes">
-                <recipe name="BreakfastMRE" count="1">
-                    <ingredient name="foodBaconAndEggs" count="2"/>
-                    <ingredient name="drinkJarCoffee" count="1"/>
-                </recipe>
-                <recipe name="LunchMRE" count="1">
-                    <ingredient name="foodBakedPotato" count="1"/>
-                    <ingredient name="foodPumpkinPie" count="1"/>
-                    <ingredient name="drinkJarRedTea" count="1"/>
-                </recipe>
-                <recipe name="DinnerMRE" count="1">
-                    <ingredient name="foodMeatStew" count="1"/>
-                    <ingredient name="foodCropGraceCorn" count="1"/>
-                    <ingredient name="foodCropBlueberries" count="2"/>
-                    <ingredient name="drinkJarRedTea" count="1"/>
-                </recipe>
-                <recipe name="StuffedMRE" count="1">
-                    <ingredient name="foodGrilledMeat" count="5"/>
-                    <ingredient name="foodCropGraceCorn" count="3"/>
-                    <ingredient name="foodSteakAndPotato" count="5"/>
-                    <ingredient name="foodBlueberryPie" count="1"/>
-                    <ingredient name="drinkJarPureMineralWater" count="1"/>
-                    <ingredient name="foodMeatStew" count="1"/>
-                    <ingredient name="foodPumpkinPie" count="1"/>
-                </recipe>
-                <recipe name="PastaMRE" count="1">
-                    <ingredient name="foodSpaghetti" count="2"/>
-                    <ingredient name="foodCanPasta" count="1"/>
-                    <ingredient name="foodBlueberryPie" count="1"/>
-                    <ingredient name="drinkJarRedTea" count="1"/>
-                </recipe>
-                <recipe name="SweetsMRE" count="1">
-                    <ingredient name="foodBlueberryPie" count="1"/>
-                    <ingredient name="foodPumpkinCheesecake" count="1"/>
-                    <ingredient name="drinkYuccaJuiceSmoothie" count="1"/>
-                </recipe>
-                <recipe name="TacticalMRE" count="1">
-                    <ingredient name="foodGrilledMeat" count="3"/>
-                    <ingredient name="foodCanPasta" count="2"/>
-                    <ingredient name="foodBakedPotato" count="2"/>
-                    <ingredient name="drinkJarCoffee" count="1"/>
-                </recipe>
-                <recipe name="VeganMRE" count="1">
-                    <ingredient name="foodBakedPotato" count="2"/>
-                    <ingredient name="foodPumpkinPie" count="1"/>
-                    <ingredient name="foodCanPasta" count="1"/>
-                    <ingredient name="drinkJarGoldenRodTea" count="1"/>
-                </recipe>
-            </append>
-        </if>
-    </conditional>
+  <conditional>
+    <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftMREs') == 'On'">
+      <append xpath="/recipes">
+        <recipe name="BreakfastMRE" count="1">
+          <ingredient name="foodBaconAndEggs" count="2"/>
+          <ingredient name="drinkJarCoffee" count="1"/>
+        </recipe>
+        <recipe name="LunchMRE" count="1">
+          <ingredient name="foodBakedPotato" count="1"/>
+          <ingredient name="foodPumpkinPie" count="1"/>
+          <ingredient name="drinkJarRedTea" count="1"/>
+        </recipe>
+        <recipe name="DinnerMRE" count="1">
+          <ingredient name="foodMeatStew" count="1"/>
+          <ingredient name="foodCropGraceCorn" count="1"/>
+          <ingredient name="foodCropBlueberries" count="2"/>
+          <ingredient name="drinkJarRedTea" count="1"/>
+        </recipe>
+        <recipe name="StuffedMRE" count="1">
+          <ingredient name="foodGrilledMeat" count="5"/>
+          <ingredient name="foodCropGraceCorn" count="3"/>
+          <ingredient name="foodSteakAndPotato" count="5"/>
+          <ingredient name="foodBlueberryPie" count="1"/>
+          <ingredient name="drinkJarPureMineralWater" count="1"/>
+          <ingredient name="foodMeatStew" count="1"/>
+          <ingredient name="foodPumpkinPie" count="1"/>
+        </recipe>
+        <recipe name="PastaMRE" count="1">
+          <ingredient name="foodSpaghetti" count="2"/>
+          <ingredient name="foodCanPasta" count="1"/>
+          <ingredient name="foodBlueberryPie" count="1"/>
+          <ingredient name="drinkJarRedTea" count="1"/>
+        </recipe>
+        <recipe name="DessertMRE" count="1">
+          <ingredient name="foodBlueberryPie" count="1"/>
+          <ingredient name="foodPumpkinCheesecake" count="1"/>
+          <ingredient name="drinkYuccaJuiceSmoothie" count="1"/>
+        </recipe>
+        <recipe name="TacticalMRE" count="1">
+          <ingredient name="foodGrilledMeat" count="3"/>
+          <ingredient name="foodCanPasta" count="2"/>
+          <ingredient name="foodBakedPotato" count="2"/>
+          <ingredient name="drinkJarCoffee" count="1"/>
+        </recipe>
+        <recipe name="VeganMRE" count="1">
+          <ingredient name="foodBakedPotato" count="2"/>
+          <ingredient name="foodPumpkinPie" count="1"/>
+          <ingredient name="foodCanPasta" count="1"/>
+          <ingredient name="drinkJarGoldenRodTea" count="1"/>
+        </recipe>
+      </append>
+    </if>
+    <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftMREs') == 'Off'"/>
+  </conditional>
 </craftmres>

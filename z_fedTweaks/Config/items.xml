@@ -1,7 +1,8 @@
 <configs>
-    <include filename="items/craftmres.xml"/>
-    <include filename="items/craftparts.xml"/>
-    <include filename="items/craftsolars.xml"/>
-    <include filename="items/craftvitamins.xml"/>
-    <include filename="items/optimalstacks.xml"/>
+  <include filename="items/craftmres.xml"/>
+  <include filename="items/craftparts.xml"/>
+  <include filename="items/craftsolars.xml"/>
+  <include filename="items/craftvitamins.xml"/>
+  <include filename="items/optimalstacks.xml"/>
+  <include filename="items/smeltcoal.xml"/>
 </configs>

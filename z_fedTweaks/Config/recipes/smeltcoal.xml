@@ -1,11 +1,12 @@
 <smeltcoal>
-    <conditional>
-        <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.SmeltCoal') == 'On'">
-            <append xpath="/recipes">
-                <recipe name="resourceCoal" count="1" craft_time="5" craft_area="campfire" craft_tool="toolCookingPot">
-                    <ingredient name="resourceWood" count="2"/>
-                </recipe>
-            </append>
-        </if>
-    </conditional>
+  <conditional>
+    <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.SmeltCoal') == 'On'">
+      <append xpath="/recipes">
+        <recipe name="resourceCoal" count="1" craft_time="5" craft_area="campfire" tags="chemStationCrafting">
+          <ingredient name="resourceWood" count="2"/>
+        </recipe>
+      </append>
+    </if>
+    <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.SmeltCoal') == 'Off'"/>
+  </conditional>
 </smeltcoal>

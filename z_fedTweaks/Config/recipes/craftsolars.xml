@@ -1,25 +1,26 @@
 <craftsolars>
-    <conditional>
-        <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftSolars') == 'On'">
-            <append xpath="/recipes">
-                <recipe name="solarbank" count="1" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
-                    <ingredient name="resourceScrapPolymers" count="55"/>
-                    <ingredient name="resourceCoal" count="12"/>
-                    <ingredient name="resourceForgedIron" count="16"/>
-                    <ingredient name="resourceForgedSteel" count="19"/>
-                </recipe>
-            </append>
-            <append xpath="/recipes">
-                <recipe name="solarCell" count="1" craft_time="10" craft_area="workbench" tags="workbenchCrafting">
-                    <ingredient name="resourceScrapPolymers" count="28"/>
-                    <ingredient name="resourceCoal" count="12"/>
-                    <ingredient name="resourceSilverNugget" count="3"/>
-                    <ingredient name="resourceForgedIron" count="37"/>
-                    <effect_group>
-                        <passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value="1,5" tags="resourceScrapPolymers,resourceForgedIron"/>
-                    </effect_group>
-                </recipe>
-            </append>
-        </if>
-    </conditional>
+  <conditional>
+    <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftSolars') == 'On'">
+      <append xpath="/recipes">
+        <recipe name="solarbank" count="1" craft_time="30" craft_area="workbench" tags="workbenchCrafting">
+          <ingredient name="resourceScrapPolymers" count="55"/>
+          <ingredient name="resourceCoal" count="12"/>
+          <ingredient name="resourceForgedIron" count="16"/>
+          <ingredient name="resourceForgedSteel" count="19"/>
+        </recipe>
+      </append>
+      <append xpath="/recipes">
+        <recipe name="solarCell" count="1" craft_time="10" craft_area="workbench" tags="workbenchCrafting">
+          <ingredient name="resourceScrapPolymers" count="28"/>
+          <ingredient name="resourceCoal" count="12"/>
+          <ingredient name="resourceSilverNugget" count="3"/>
+          <ingredient name="resourceForgedIron" count="37"/>
+          <effect_group>
+            <passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value="1,5" tags="resourceScrapPolymers,resourceForgedIron"/>
+          </effect_group>
+        </recipe>
+      </append>
+    </if>
+    <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftSolars') == 'Off'"/>
+  </conditional>
 </craftsolars>

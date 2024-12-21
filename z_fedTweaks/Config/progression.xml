@@ -1,4 +1,4 @@
 <config>
-    <include filename="progression/craftsolars.xml"/>
-    <include filename="progression/craftvitamins.xml"/>
+  <include filename="progression/craftsolars.xml"/>
+  <include filename="progression/craftvitamins.xml"/>
 </config>

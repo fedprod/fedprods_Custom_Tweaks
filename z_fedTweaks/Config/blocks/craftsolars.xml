@@ -1,7 +1,7 @@
 <craftsolars>
   <conditional>
     <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftSolars') == 'On'">
-      <append xpath="items/item[@name='solarCell']">
+      <append xpath="blocks/block[@name='solarbank']">
         <property name="UnlockedBy" value="craftingElectrician"/>
       </append>
     </if>

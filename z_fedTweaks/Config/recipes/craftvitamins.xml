@@ -1,18 +1,19 @@
 <craftvitamins>
-    <conditional>
-        <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftVitamins') == 'On'">
-            <append xpath="/recipes">
-                <recipe name="drugVitamins" craft_time="30" count="1" craft_area="chemistryStation" tags="chemStationCrafting">
-                    <ingredient name="foodCropMushrooms" count="1"/>
-                    <ingredient name="resourceCropChrysanthemumPlant" count="1"/>
-                    <ingredient name="drinkJarBoiledWater" count="1"/>
-                </recipe>
-                <recipe name="drugVitamins" craft_time="90" count="1" craft_area="campfire" craft_tool="toolBeaker">
-                    <ingredient name="foodCropMushrooms" count="3"/>
-                    <ingredient name="resourceCropChrysanthemumPlant" count="3"/>
-                    <ingredient name="drinkJarBoiledWater" count="1"/>
-                </recipe>
-            </append>
-        </if>
-    </conditional>
+  <conditional>
+    <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftVitamins') == 'On'">
+      <append xpath="/recipes">
+        <recipe name="drugVitamins" craft_time="30" count="1" craft_area="chemistryStation" tags="chemStationCrafting">
+          <ingredient name="foodCropMushrooms" count="1"/>
+          <ingredient name="resourceCropChrysanthemumPlant" count="1"/>
+          <ingredient name="drinkJarBoiledWater" count="1"/>
+        </recipe>
+        <recipe name="drugVitamins" craft_time="90" count="1" craft_area="campfire" craft_tool="toolBeaker">
+          <ingredient name="foodCropMushrooms" count="3"/>
+          <ingredient name="resourceCropChrysanthemumPlant" count="3"/>
+          <ingredient name="drinkJarBoiledWater" count="1"/>
+        </recipe>
+      </append>
+    </if>
+    <if cond="modsetting('fedprods_Custom_Tweaks', 'Global', 'Crafting.MoreCrafts.CraftVitamins') == 'Off'"/>
+  </conditional>
 </craftvitamins>
