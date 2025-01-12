@@ -13,8 +13,8 @@ MREDesc, "Meals Ready to Eat (MRE) are pre-portioned packets of food, drinks and
 Tweaks,"Tweaks","Optimierungen"
 Gameplay,"Gameplay","Spielverlauf"
 
-SetBasicChallengeSP,"Basics Challenge SP","Einsteiger Challenge SP"
-SetBasicChallengeSPDesc,"Sets the Skillpoints of the Basics Challenge to the shown Value. (Default is 4)","Setzt die Skillpunkte für die Tutorial-Herausforderung auf den angegebenen Wert. (Standard ist 4)"
+SetBasicsChallengeSP,"Basics Challenge SP","Einsteiger Challenge SP"
+SetBasicsChallengeSPDesc,"Sets the Skillpoints of the Basics Challenge to the shown Value. (Default is 4)","Setzt die Skillpunkte für die Tutorial-Herausforderung auf den angegebenen Wert. (Standard ist 4)"
 OptimalStacks,"Optimized Stacks","Angepasste Stackgrößen"
 OptimalStacksDesc,"Sets the Item Stacks to more optimized Amounts without beeing too Overpowered.","Setzt die Itemstapel auf mehr optimiertere Werte, ohne allzu overpowered zu sein."
 TradersNoTP,"Traders No TP","Händler kein TP"

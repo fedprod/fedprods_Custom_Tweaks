@@ -3,7 +3,7 @@
     <Global>
         <Tab name="Tweaks" displayKey="" tooltipKey="">
             <Category name="Gameplay" displayKey="" tooltipKey="">
-                <Selector name="SetBasicChallengeSP" displayKey="SetBasicChallengeSP" tooltipKey="SetBasicChallengeSPDesc" value="4" defaultValue="4">
+                <Selector name="SetBasicsChallengeSP" displayKey="SetBasicsChallengeSP" tooltipKey="SetBasicsChallengeSPDesc" value="4" defaultValue="4">
                     <Property type="arrayValues" allowedValues="4,7,14,21,28"/>
                     <!-- Default is 4 -->
                 </Selector>
