@@ -3,8 +3,6 @@
 
         All Features are either Customizable or Toggleable per Gears:
 
-    <Description value="A customizable Tweak Mod
-        All Features are either Customizable or Toggleable per Gears:
         Customizable:
         - Increased Trap Durability
         - Loot Bag despawn time
