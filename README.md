@@ -1,5 +1,6 @@
 # fedprod's custom tweaks
  A customizable Tweak Mod for 7 Days to Die
+ Now up-to-date for Game Version 2.0
 
         All Features are either Customizable or Toggleable per Gears:
 
